@@ -1,0 +1,180 @@
+##---------- Keybindings for bspwm ----------##
+
+
+# Terminal (termite)
+super + Return
+	alacritty
+
+#TO SOCIAL
+super + 9    
+    bspc desktop -f '^9'
+
+# Floating terminal
+super + shift + Return
+	alacritty -f
+
+##---------- Rofi Launcher & Menus ----------##
+
+# Rofi App Launcher
+alt + F1
+	dmenu_run
+
+# Rofi Network Menu
+super + n
+	networkmanager_dmenu
+
+# Rofi Menus
+super + r
+	sh ~/.config/bspwm/bin/rofi-asroot
+super + x
+    sh ~/.config/bspwm/bin/rofi-powermenu
+ctrl + alt + p
+	flameshot gui
+ctrl + alt + b
+	bash ~/.config/bspwm/bin/rofi-bookmark-manager
+ctrl + alt + j
+	sh ~/.config/bspwm/bin/rofi-book-manager	
+ctrl + alt + y
+    bash ~/.config/bspwm/bin/rofi_youtube_menu
+ctrl + alt + k
+    bash ~/.config/bspwm/bin/rofi-killswitch
+
+
+##---------- Applications ----------##
+
+# Launch Apps
+super + shift + g
+    subl3
+
+##---------- System ----------##
+
+# Take a screenshot
+Print
+	scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/Desktop-ss/'
+	
+# Take a screenshot in 5 second
+#alt + Print	
+#	scrot -d 5 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/Desktop-ss/'
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	backlight{-up,-down}
+	
+# Volume control
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	volume{-up,-down}
+	
+# Music control
+XF86Audio{Next,Prev,Play,Stop}
+	mpc {next,prev,toggle,stop}
+ctrl + alt + i
+    mpc volume +5
+ctrl + alt + o
+    mpc volume -5    
+##--------- Thunar shortcuts -------#
+ctrl + alt + h
+    pcmanfm
+ctrl + alt + a
+    pcmanfm /mnt/media_m/Anime
+ctrl + alt + t
+    sh ~/.config/bspwm/bin/media-folder         
+ctrl + alt + d
+    pcmanfm -n /mnt/downloads
+ctrl + alt + w
+    pcmanfm /mnt/work    
+ctrl + alt + c
+    sh ~/.config/bspwm/bin/cpu-usage-info
+ctrl + alt + f
+    qutebrowser
+ctrl + alt + g
+    firefox-beta 
+ctrl + alt + s
+    pcmanfm -n /mnt/study/Second_year
+ctrl + alt + m
+    sh ~/.config/bspwm/bin/music   
+##---------- Bspwm ----------##
+
+# Lockscreen
+ctrl + alt + l
+    betterlockscreen -l
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Quit/Restart bspwm
+ctrl + alt + {q,r}
+	bspc {quit,wm -r}
+
+# Close App
+alt + F4
+	bspc node -c
+
+# kill
+ctrl + alt + Escape
+    xkill
+
+# Fullscreen or Monocle
+super + f
+	bspc desktop -l next
+	
+# Split horizontal, vertical or cancel
+super + {h,v,c}
+	bspc node -p {east,south,cancel}
+
+# Preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
+
+# Pseudo Tiled & tiled mode
+super + {p,t}
+    bspc node -t {pseudo_tiled,tiled}
+
+# Set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+# Send the window to another edge of the screen
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# Change focus to next window, including floating window
+alt + {_,shift + }Tab
+	bspc node -f {next.local,prev.local}
+
+# Switch workspace
+ctrl + alt + {Left,Right}
+	bspc desktop -f {prev.local,next.local}
+
+# Switch to last opened workspace
+super + {Tab,grave}
+	bspc {node,desktop} -f last
+
+# Send focused window to another workspace
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+# Expanding windows
+super + control + {Left,Right,Up,Down}
+	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+	
+## Shrinking windows
+super + alt + {Left,Right,Up,Down}
+	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+	
+## Move floating windows
+alt + shift + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+#change wallpaper
+alt + c
+    sh ~/.config/bspwm/bin/fehbg $(cat /home/venerable_white/.config/bspwm/bin/wallpaper-folder-name.txt)
+
+
+#play video in mpv
+ctrl + y + u
+    sh ~/.config/bspwm/bin/play-video-on-any-browser-in-mpv
+
+##---------- EOF ----------##
