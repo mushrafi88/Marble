@@ -1,0 +1,4 @@
+configuration {
+	theme: "~/.config/rofi/custom-themes/merah.rasi";
+}
+@import "~/.config/rofi/custom-themes/merah.rasi"

@@ -1,0 +1,157 @@
+Height 1080=1052
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABrwAAAQcAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAAAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 1920=1916
+
+[ColorEffects:Disabled]
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65000000000000002
+ContrastEffect=1
+IntensityAmount=0.10000000000000001
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025000000000000001
+ColorEffect=2
+ContrastAmount=0.10000000000000001
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=64,69,82
+BackgroundNormal=64,69,82
+DecorationFocus=68,74,88
+DecorationHover=68,74,88
+ForegroundActive=61,174,233
+ForegroundInactive=189,195,199
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Selection]
+BackgroundAlternate=29,153,243
+BackgroundNormal=82,148,226
+DecorationFocus=68,74,88
+DecorationHover=68,74,88
+ForegroundActive=252,252,252
+ForegroundInactive=239,240,241
+ForegroundLink=253,188,75
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
+ForegroundVisited=189,195,199
+
+[Colors:Tooltip]
+BackgroundAlternate=56,60,74
+BackgroundNormal=56,60,74
+DecorationFocus=68,74,88
+DecorationHover=68,74,88
+ForegroundActive=61,174,233
+ForegroundInactive=189,195,199
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:View]
+BackgroundAlternate=64,69,82
+BackgroundNormal=64,69,82
+DecorationFocus=68,74,88
+DecorationHover=68,74,88
+ForegroundActive=61,174,233
+ForegroundInactive=189,195,199
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Window]
+BackgroundAlternate=56,60,74
+BackgroundNormal=56,60,74
+DecorationFocus=68,74,88
+DecorationHover=68,74,88
+ForegroundActive=61,174,233
+ForegroundInactive=189,195,199
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=179,189,203
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Desktop Entry]
+FullScreen=false
+
+[General]
+ColorScheme=Arc Dark
+Name=Arc Dark
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[MainWindow]
+Height 1080=1052
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABMwAAAP4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=1916
+eDP-1 Height 1080=1034
+eDP-1 Width 1920=1428
+eDP-1 XPosition=485
+eDP-1 YPosition=39
+
+[MainWindow][Toolbar annotationToolBar]
+IconSize=16
+ToolButtonStyle=TextOnly
+
+[Recent Files]
+File1[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/Part 2 (C-5,6).pdf
+File10[$e]=/mnt/study/Second_year/Books/Electricity and magnetism and Electronics/Theory of electromagnetic wave propagation by Charles Herach Papas (z-lib.org).pdf
+File2[$e]=/mnt/downloads/qt/GeometricSeriesExamQuestions.pdf
+File3[$e]=/mnt/downloads/qt/Links.pdf
+File4[$e]=/mnt/downloads/telegram-desktop/md-zisan-2018631065.pdf
+File5[$e]=$HOME/Downloads/Firefox_dl/order_22812.pdf
+File6[$e]=/mnt/downloads/Firefox_dl/order_22812.pdf
+File7[$e]=/mnt/downloads/qt/material/material-design-icons-4.0.0/README.md
+File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+File9[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+Name1[$e]=Part 2 (C-5,6).pdf
+Name10[$e]=Theory of electromagnetic wave propagation by Charles Herach Papas (z-lib.org).pdf
+Name2[$e]=GeometricSeriesExamQuestions.pdf
+Name3[$e]=Links.pdf
+Name4[$e]=md-zisan-2018631065.pdf
+Name5[$e]=order_22812.pdf
+Name6[$e]=order_22812.pdf
+Name7[$e]=README.md
+Name8[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+Name9[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+
+[Shortcut Schemes]
+Current Scheme=Default
+
+[Toolbar annotationToolBar]
+IconSize=16
+ToolButtonStyle=TextOnly
+
+[WM]
+activeBackground=56,60,74
+activeBlend=255,255,255
+activeForeground=239,240,241
+inactiveBackground=56,60,74
+inactiveBlend=56,60,74
+inactiveForeground=127,140,141

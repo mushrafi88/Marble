@@ -1,0 +1,32 @@
+* {
+  accent:           #A9C03F;
+  background:       #141c21;
+  background-light: #1C252A;
+  foreground:       #93a1a1;
+  on:               #5BB462;
+  off:              #DE635E;
+  green:            #A3BE8C;
+
+}
+
+* {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @accent;
+    font:            				"Comfortaa 12";
+}
+
+#window {
+	border:							1px;
+    border-radius:                  0px;
+    border-color:					@selected;
+    width:      					300px;
+    y-offset: 						-8%;
+    padding:    					20px;
+}
+
+#entry {
+    expand: 						true;
+    width: 							150px;
+    text-color:						@urgent;
+}

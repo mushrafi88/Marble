@@ -1,0 +1,34 @@
+
+* {
+  accent:           #A9C03F;
+  background:       #141c21;
+  background-light: #1C252A;
+  foreground:       #93a1a1;
+  on:               #5BB462;
+  off:              #DE635E;
+}
+
+
+
+* {
+    background-color:               @background;
+    text-color:                     @accent;
+    font:                           "Comfortaa 12";
+}
+
+#window {
+    location:                       center;
+    border:                         1px;
+    border-radius:                  0px;
+    border-color:                   @selected;
+    width:                          220px;
+    padding:                        20px;
+}
+
+#entry {
+    expand:                         true;
+    width:                          150px;
+    text-color:                     @foreground;
+}
+
+

@@ -1,0 +1,539 @@
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+;;
+;;	    ____        __      __              
+;;	   / __ \____  / /_  __/ /_  ____ ______
+;;	  / /_/ / __ \/ / / / / __ \/ __ `/ ___/
+;;	 / ____/ /_/ / / /_/ / /_/ / /_/ / /    
+;;	/_/    \____/_/\__, /_.___/\__,_/_/     
+;;	              /____/                    
+;;
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+;; Global WM Settings
+
+[global/wm]
+margin-bottom = 0
+margin-top = 0
+
+
+[color]
+
+FOREGROUND = #D8DEE9
+BACKGROUND = #cc2E3440
+BLACK = #3B4252
+RED = #BF616A
+GREEN = #A3BE8C
+YELLOW = #EBCB8B
+BLUE = #81A1C1
+MAGENTA = #B48EAD
+CYAN = #88C0D0
+WHITE = #E5E9F0
+ALTBLACK = #4C566A
+ALTRED = #BF616A
+ALTGREEN = #A3BE8C
+ALTYELLOW = #ffEBCB8B
+ALTBLUE = #81A1C1
+ALTMAGENTA = #B48EAD
+ALTCYAN = #8FBCBB
+ALTWHITE = #ECEFF4
+
+
+
+[bar/eDP-1]
+monitor = eDP-1
+monitor-fallback = DP1
+monitor-strict = false
+override-redirect = false
+wm-restack = bspwm
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 18
+offset-x = 0
+offset-y = 0
+
+background = ${color.BACKGROUND}
+foreground = ${color.FOREGROUND}
+
+radius-top = 0.0
+radius-bottom = 0.0
+
+line-size = 3
+line-color = ${color.BLUE}
+
+border-size = 4
+border-color = ${color.BACKGROUND}
+
+padding = 1
+module-margin-left = 1
+module-margin-right = 1
+
+
+
+;font-0 = "SF Mono:size=10;2"
+;font-1 = "SF Mono:size=10;2"
+;font-2 = "SFMono Nerd Font Mono:size=12;2"
+;font-3 = "SFMono Nerd Font Mono:size=12;2"
+
+
+
+
+
+
+font-0 = Comfortaa Regular:pixelsize=10;1
+font-1 = Hurmit Nerd Font:pixelsize=11;1
+font-2 = Hack Nerd Font Mono:style=Regular:pixelsize=11;1
+font-3 = Noto Color Emoji:style=Regular:pixelsize=11;1
+font-4 = Source Code Pro:style=Regular:pixelsize=11;1
+
+
+modules-left = bspwm
+modules-center = mpd date
+modules-right = memory cpu  battery network wifi dunst
+separator = ""
+spacing = 0
+
+dim-value = 1.0
+
+wm-name = bspwm
+locale = 
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 20
+tray-transparent = true
+tray-background = ${color.BACKGROUND}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 4.0
+tray-scale = 1.0
+
+enable-ipc = true
+
+; bspwm
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+
+[bar/DP1]
+inherit = bar/eDP-1
+monitor = DP1
+
+[bar/HDMI1]
+inherit = bar/eDP-1
+monitor = HDMI1
+
+
+
+
+[settings]
+throttle-output = 5
+throttle-output-for = 10
+throttle-input-for = 30
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+;;
+;;	    __  ___          __      __         
+;;	   /  |/  /___  ____/ /_  __/ /__  _____
+;;	  / /|_/ / __ \/ __  / / / / / _ \/ ___/
+;;	 / /  / / /_/ / /_/ / /_/ / /  __(__  ) 
+;;	/_/  /_/\____/\__,_/\__,_/_/\___/____/  
+;;
+;; Created By Aditya Shakya @adi1090x
+;;
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+battery = BAT1
+adapter = ACAD
+
+poll-interval = 2
+time-format = %H:%M
+
+format-charging = <animation-charging> <label-charging>
+format-charging-prefix =
+
+format-discharging = <ramp-capacity> <label-discharging>
+
+format-full = <label-full>
+format-full-prefix = " "
+format-full-prefix-foreground = ${color.GREEN}
+
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full = %percentage%%
+label-full-foreground = ${color.ALTGREEN}
+label-discharging-foreground=${color.ALTYELLOW}
+
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-foreground = ${color.YELLOW}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-5 = 
+animation-charging-foreground = ${color.GREEN}
+animation-charging-framerate = 750
+
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1
+port = 6600
+;;password = mysecretpassword
+
+interval = 2
+
+format-online = <label-song> <icon-prev> <toggle> <icon-next>
+format-online-prefix =" "
+ 
+format-online-prefix-foreground = ${color.GREEN}
+format-online-foreground = ${color.BLUE}
+
+format-playing = ${self.format-online}
+format-paused = <label-song> <toggle>
+
+format-offline = <label-offline>
+label-offline = "Offline"
+
+label-song =  "%title% | %artist%"
+label-song-maxlen = 40
+label-song-ellipsis = true
+
+icon-play-foreground = ${color.RED}
+icon-play = ""
+icon-pause-foreground = ${color.GREEN}
+icon-pause = "  "
+icon-stop-foreground = ${color.CYAN}
+icon-stop = 
+icon-prev-foreground = ${color.CYAN}
+icon-prev = ""
+icon-next-foreground = ${color.CYAN}
+icon-next = " "
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+inline-mode = false
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+fuzzy-match = true
+
+format = <label-state>
+format-padding = 0
+label-monitor = %name%
+
+
+
+label-active = 
+label-active-foreground = ${color.BLUE}
+;label-active-background = ${color.BLUE}
+
+label-occupied =  
+;label-occupied-background = ${color.GREEN}
+label-occupied-foreground = ${color.GREEN}
+
+label-urgent = 
+label-urgent-foreground = ${color.BACKGROUND}
+label-urgent-background = ${color.RED}
+
+label-empty =  
+label-empty-background = ${color.BACKGROUND}
+label-empty-foreground = ${color.FOREGROUND}
+
+
+
+label-active-padding = 2
+label-urgent-padding = 2 
+label-occupied-padding = 2
+label-empty-padding = 2
+
+
+;; name type style ....................................................
+
+
+;label-focused = %name%
+;label-focused-foreground = ${color.BACKGROUND}
+;label-focused-background = ${color.BLUE}
+;label-focused-padding = 1
+
+;label-occupied = %name%
+;label-occupied-foreground = ${color.BACKGROUND}
+;label-occupied-background = ${color.GREEN}
+;label-occupied-padding = 1
+
+;label-urgent = %name%
+;label-urgent-foreground = ${color.BACKGROUND}
+;label-urgent-background = ${color.RED}
+;label-urgent-padding = 1
+
+;label-empty = %name%
+;label-empty-foreground = ${color.FOREGROUND}
+;label-empty-padding = 1
+
+;label-separator = " "
+;label-separator-padding = 0
+;;label-separator-foreground = ${color.YELLOW}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+
+
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/date]
+type = internal/date
+
+interval = 1.0
+
+time = %I:%M:%S %p
+time-alt = %A, %d %B %Y
+
+format = <label>
+format-prefix = "  "
+
+
+
+
+
+;;format-prefix-foreground = ${color.RED}
+
+label = %time%
+label-foreground=
+
+
+label-background=
+
+
+;;${color.ALTMAGENTA}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/network]
+type = internal/network
+interface = enp2s0f1
+
+
+interval = 0.8
+
+accumulate-stats = true
+
+unknown-as-up = true
+
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+
+label-connected =  "%downspeed:8% %upspeed:8%"
+label-disconnected = 
+
+label-connected-foreground = ${color.ALTMAGENTA}
+;label-connected-background = ${color.BLUE}
+label-disconnected-foreground = ${color.RED}
+
+
+
+[module/wifi]
+type = internal/network
+interface = wlan0
+interval = 0.2
+
+
+accumulate-stats = true
+
+unknown-as-up = true
+
+
+format-connected =<label-connected> 
+format-disconnected = <label-disconnected>
+
+; Available tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+; Default: %ifname% %local_ip%
+
+
+label-connected ="%essid%:DL:%downspeed:8% UP:%upspeed:8%"
+label-disconnected =    
+
+label-connected-foreground = ${color.ALTMAGENTA}
+;label-connected-background = ${color.RED}
+label-disconnected-foreground = ${color.RED}
+
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+[module/cpu]
+type = internal/cpu
+
+interval = 0.5
+
+format = <label> 
+format-prefix = Cpu:
+
+label = " %percentage%%"
+label-foreground = ${color.BLUE}
+format-prefix-foreground= ${color.BLUE}
+
+;ramp-load-0 = 
+;ramp-load-1 = 
+;ramp-load-2 = 
+;ramp-load-3 = 
+;ramp-load-4 = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/memory]
+type = internal/memory
+
+interval = 3
+
+format = <label>
+format-prefix = Ram: 
+; Available tokens:
+;   %percentage_used% (default)
+;   %percentage_free%
+;   %gb_used%
+;   %gb_free%
+;   %gb_total%
+
+label-foreground = ${color.ALTYELLOW}
+format-prefix-foreground = ${color.ALTYELLOW}
+
+label = "%gb_free%"
+
+
+
+[module/dunst]
+type = custom/ipc
+initial = 1
+hook-0 = echo ""
+hook-1 = echo ""
+
+format = <output>
+format-foreground = ${color.fg}
+format-background = ${color.bg}
+
+click-left = sh $HOME/.config/polybar/scripts/muted.sh 
+
+
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+[module/sep]
+type = custom/text
+content = "| "
+
+content-background = #00000000
+content-foreground = #00000000
+content-padding = 0
+
+[module/sep2]
+type = custom/text
+content = "| "
+content-background = #090B11
+content-foreground = #00000000
+content-padding = 0
+
+
+
+[module/round-left]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.BACKGROUND}
+
+[module/round-right]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = ${color.BACKGROUND}
+
+[module/round-right-colored]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = #7985AA
+
+[module/round-left-colored]
+type = custom/text
+content = %{T3}%{T-}
+content-foreground = #7985AA
+
+
+
+
+
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+;;	    __________  ______
+;;	   / ____/ __ \/ ____/
+;;	  / __/ / / / / /_    
+;;	 / /___/ /_/ / __/    
+;;	/_____/\____/_/       
+;;
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
