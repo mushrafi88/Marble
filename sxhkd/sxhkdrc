@@ -170,7 +170,7 @@ alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 #change wallpaper
 alt + c
-    sh ~/.config/bspwm/bin/fehbg $(cat /home/venerable_white/.config/bspwm/bin/wallpaper-folder-name.txt)
+    sh ~/.config/bspwm/bin/fehbg $(cat /home/venerable_white/Pictures/wallpapers/wallpaper-folder-name.txt)
 
 
 #play video in mpv

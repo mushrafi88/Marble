@@ -29,8 +29,7 @@ ShellOpenFileInTabs=true
 WatchFile=false
 
 [Main View]
-ShowLeftPanel=false
-SplitterSizes=149,1758
+SplitterSizes=194,1233
 
 [Nav Panel]
 SyncThumbnailsViewport=false
