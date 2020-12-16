@@ -14,14 +14,12 @@ echo $lc
 if [ $lc = "1" ]
 then
     xrandr --output eDP-1 --mode 1920x1080 --output DP1 --off
-    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX 
+    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX
 else
     xrandr --output DP1 --primary --mode 1920x1080 --rotate normal --output eDP-1 --mode 1920x1080 --rotate normal --below DP1
     bspc monitor DP1 -d I II III IV V
-    bspc monitor eDP-1 -d VI VII VIII IX 
+    bspc monitor eDP-1 -d VI VII VIII IX
 fi
-
-
 
 
 
@@ -48,70 +46,25 @@ fi
 
 ## Window rules -------------------------------#
 
-#google-chrome-unstable = Google-chrome-unstable
-#celluloid = Io.github.celluloid_player.Celluloid
-#qbittorrent = qBittorent
-#
-
-
-
-
 # remove all rules first
 bspc rule -r *:*
 
-# 1 > home
-bspc rule -a Termite desktop='^5' state=tiled focus=on manage=on
-bspc rule -a Xfce4-terminal desktop='^5' state=tiled focus=on manage=on
 # 2 > web
 bspc rule -a 'Firefox Beta'desktop='^3' follow=on focus=on
-bspc rule -a Xfce4-appfinder state=floating follow=on focus=on
-bspc rule -a Brave-browser desktop='^3' follow=on focus=on
-bspc rule -a Google-chrome-unstable desktop='^3' follow=on
-bspc rule -a Transmission-gtk desktop='^8'
-bspc rule -a persepolis desktop='^8' 
-bspc rule -a MEGAsync desktop='^8' state=floating rectangle=100x100+1500+500
-bspc rule -a TelegramDesktop desktop='^9' follow=on
-bspc rule -a discord split_ratio=.40 desktop='^9' follow=on
+bspc rule -a Transmission-gtk desktop='^9'
+#bspc rule -a MEGAsync desktop='^8' state=floating rectangle=100x100+1500+500
+#bspc rule -a TelegramDesktop desktop='^9' follow=on
+#bspc rule -a discord split_ratio=.40 desktop='^9' follow=on
 bspc rule -a Stremio split_ratio=0.35 desktop='^7' follow=on
 bspc rule -a okular split_ratio=.25 desktop='^4' follow=on focus=on
 bspc rule -a zoom desktop='^2' follow=on
-bspc rule -a 'Free Download Manager' desktop='^8' 
+bspc rule -a 'Free Download Manager' desktop='^9' 
 #bspc rule -a mpv desktop='^7' state=fullscreen follow=on focus=on
 bspc rule -a mpv state=floating 
 bspc rule -a qutebrowser desktop='^3' follow=on focus=on
-bspc rule -a Subl3 desktop='^2' follow=on focus=on
+#bspc rule -a Subl3 desktop='^2' follow=on focus=on
+bspc rule -a Pavucontrol state=floating 
 
-
-# 3 > file
-#bspc rule -a  desktop='^3' follow=on focus=on
-# 4 > work
-
-
-# 5 > video
-#declare -a media=(names)
-#for i in ${media[@]}; do
-#   bspc rule -a $i desktop='^7' state=fullscreen follow=on focus=on; done
-
-# 6 > book
-#7 > media
-#8 > downloadscenter=true rectangle=1376x625+0+0
-
-#bspc rule -a qBittorrent desktop='^8'state=floating focus=on manage=on
-#bspc rule -a persepolis desktop='^8'state=floating focus=on manage=on
-
-#bspc rule -a MEGAsync desktop='^8'state=floating focus=on manage=on
-
-#9 > extra
-
-
-# special rules
-
-bspc rule -a Firefox:Places state=floating follow=on focus=on
-
-
-
-
-#bspc rule -a stalonetray state=floating manage=off
 
 ## Autostart -------------------------------#
 
@@ -138,21 +91,15 @@ xsetroot -cursor_name left_ptr
 # Restore wallpaper
 bash $HOME/.fehbg 
 
-# Start mpd
-
 
 # Start bspwm scripts
 #bspcolors
-#bspcomp
-#bspbar &
 
 bspbar &
 bspcomp
 
 
 mpd &
-
-
 
 #Autostart
 numlockx &

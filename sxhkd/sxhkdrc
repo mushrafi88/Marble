@@ -73,23 +73,28 @@ ctrl + alt + o
     mpc volume -5    
 ##--------- Thunar shortcuts -------#
 ctrl + alt + h
-    pcmanfm
+    alacritty -e ranger
 ctrl + alt + a
-    pcmanfm /mnt/media_m/Anime
+    alacritty -e ranger /mnt/media_m/Anime
 ctrl + alt + t
-    sh ~/.config/bspwm/bin/media-folder         
+    alacritty -e ranger ~/Videos
 ctrl + alt + d
-    pcmanfm -n /mnt/downloads
+    alacritty -e ranger /mnt/downloads
 ctrl + alt + w
-    pcmanfm /mnt/work    
+    alacritty -e ranger /mnt/work  
+ctrl + alt + s
+    alacritty -e ranger /mnt/study/Second_year
+
+##----------------scripts---------------#
+
+
+
 ctrl + alt + c
     sh ~/.config/bspwm/bin/cpu-usage-info
 ctrl + alt + f
     qutebrowser
 ctrl + alt + g
     firefox-beta 
-ctrl + alt + s
-    pcmanfm -n /mnt/study/Second_year
 ctrl + alt + m
     sh ~/.config/bspwm/bin/music   
 ##---------- Bspwm ----------##

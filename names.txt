@@ -1,1 +1,0 @@
-README.md alacritty anime-downloader bin bspwm dunst flameshot gtk-2.0 gtk-3.0 lf mpv okularpartrc okularrc pcmanfm picom polybar qt5ct qutebrowser rofi sxhkd terminator transmission zathura
