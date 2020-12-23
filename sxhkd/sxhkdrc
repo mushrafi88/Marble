@@ -39,6 +39,9 @@ ctrl + alt + y
 ctrl + alt + k
     bash ~/.config/bspwm/bin/rofi-killswitch
 
+ctrl + alt + e
+    bash ~/.config/bspwm/bin/rofi-shell-command
+
 
 ##---------- Applications ----------##
 

@@ -120,26 +120,26 @@ IconSize=16
 ToolButtonStyle=TextOnly
 
 [Recent Files]
-File1[$e]=/mnt/downloads/qt/material/material-design-icons-4.0.0/README.md
-File10[$e]=$HOME/Downloads/Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
-File2[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-File3[$e]=/mnt/study/Second_year/Books/Electricity and magnetism and Electronics/Theory of electromagnetic wave propagation by Charles Herach Papas (z-lib.org).pdf
-File4[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
-File5[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
-File6[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-File7[$e]=/mnt/downloads/qt/div and curl  9-7.pdf
-File8[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 4(C-9).pdf
-File9[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 3 (C-7,8).pdf
-Name1[$e]=README.md
-Name10[$e]=Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
-Name2[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-Name3[$e]=Theory of electromagnetic wave propagation by Charles Herach Papas (z-lib.org).pdf
-Name4[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
-Name5[$e]=[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
-Name6[$e]=[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-Name7[$e]=div and curl  9-7.pdf
-Name8[$e]=PART 4(C-9).pdf
-Name9[$e]=PART 3 (C-7,8).pdf
+File1[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+File10[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[George-King]-Vibrations-and-Waves(z-lib.org).pdf
+File2[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
+File3[$e]=/mnt/downloads/qt/div and curl  9-7.pdf
+File4[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 4(C-9).pdf
+File5[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 3 (C-7,8).pdf
+File6[$e]=$HOME/Downloads/Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
+File7[$e]=/mnt/downloads/qt/Math latest-8  com opt.pdf
+File8[$e]=/mnt/downloads/qt/Math-9 - com opt.pdf
+File9[$e]=/mnt/downloads/qt/Higher Mathe Class-9-10 com opt.pdf
+Name1[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+Name10[$e]=[George-King]-Vibrations-and-Waves(z-lib.org).pdf
+Name2[$e]=[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
+Name3[$e]=div and curl  9-7.pdf
+Name4[$e]=PART 4(C-9).pdf
+Name5[$e]=PART 3 (C-7,8).pdf
+Name6[$e]=Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
+Name7[$e]=Math latest-8  com opt.pdf
+Name8[$e]=Math-9 - com opt.pdf
+Name9[$e]=Higher Mathe Class-9-10 com opt.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
