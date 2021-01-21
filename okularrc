@@ -106,10 +106,15 @@ contrast=4
 
 [MainWindow]
 Height 1080=1052
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABMwAAAP4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAB3IAAAPGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1920=1916
+eDP-1 HDMI-1 Height 1080=1032
+eDP-1 HDMI-1 Height 768=720
+eDP-1 HDMI-1 Width 1366=1352
+eDP-1 HDMI-1 Width 1920=1906
+eDP-1 HDMI-1 XPosition=1927
+eDP-1 HDMI-1 YPosition=41
 eDP-1 Height 1080=1032
 eDP-1 Width 1920=1906
 eDP-1 XPosition=7
@@ -120,26 +125,26 @@ IconSize=16
 ToolButtonStyle=TextOnly
 
 [Recent Files]
-File1[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
-File10[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-File2[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
-File3[$e]=/mnt/downloads/qt/div and curl  9-7.pdf
-File4[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 4(C-9).pdf
-File5[$e]=/mnt/study/HSC/HSC Math Books/2nd paper/Higher Math 2nd Part by Ketab Uddin (SOLUTION)/PART 3 (C-7,8).pdf
-File6[$e]=$HOME/Downloads/Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
-File7[$e]=/mnt/downloads/qt/Math latest-8  com opt.pdf
-File8[$e]=/mnt/downloads/qt/Math-9 - com opt.pdf
-File9[$e]=/mnt/downloads/qt/Higher Mathe Class-9-10 com opt.pdf
-Name1[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
-Name10[$e]=[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-Name2[$e]=[A.P.-French]-Vibrations-and-Waves-(The-M.I.T.-Int(z-lib.org).pdf
-Name3[$e]=div and curl  9-7.pdf
-Name4[$e]=PART 4(C-9).pdf
-Name5[$e]=PART 3 (C-7,8).pdf
-Name6[$e]=Physics by Robert Resnick, David Halliday, Kenneth S. Krane (z-lib.org).pdf
-Name7[$e]=Math latest-8  com opt.pdf
-Name8[$e]=Math-9 - com opt.pdf
-Name9[$e]=Higher Mathe Class-9-10 com opt.pdf
+File1[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Applied Mathematics for Engineers and Physicists by Louis A. Pipes, Lawrence R. Harvill (z-lib.org).pdf
+File10[$e]=/mnt/study/Important files/passport/Registration_form_1000758386.pdf
+File2[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Boas-Mathematical_Methods_in_the_Physical_Sci.pdf
+File3[$e]=/mnt/study/Second_year/GravitaX/Mathematical Physics/MP lectures for your lazy ass.pdf
+File4[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Mathematical methods/7th_Mathematical_Methods_for_Physicists.pdf
+File5[$e]=/mnt/study/Important files/nid-final.pdf
+File6[$e]=/mnt/study/Second_year/Books/ODE/Introduction to Ordinary Differential Equations, 4th Edition by Shepley L. Ross (z-lib.org).djvu
+File7[$e]=/mnt/study/Second_year/Books/ODE/Differential equations and their applications an introduction to applied mathematics by Martin Braun (z-lib.org).pdf
+File8[$e]=/mnt/study/Second_year/Questions from previous years/2019 Questions/2019 Year Final Questions.pdf
+File9[$e]=/mnt/downloads/Firefox_dl/Final report_ IMED RIDP 2011-Final 12.06.11.pdf
+Name1[$e]=Applied Mathematics for Engineers and Physicists by Louis A. Pipes, Lawrence R. Harvill (z-lib.org).pdf
+Name10[$e]=Registration_form_1000758386.pdf
+Name2[$e]=Boas-Mathematical_Methods_in_the_Physical_Sci.pdf
+Name3[$e]=MP lectures for your lazy ass.pdf
+Name4[$e]=7th_Mathematical_Methods_for_Physicists.pdf
+Name5[$e]=nid-final.pdf
+Name6[$e]=Introduction to Ordinary Differential Equations, 4th Edition by Shepley L. Ross (z-lib.org).djvu
+Name7[$e]=Differential equations and their applications an introduction to applied mathematics by Martin Braun (z-lib.org).pdf
+Name8[$e]=2019 Year Final Questions.pdf
+Name9[$e]=Final report_ IMED RIDP 2011-Final 12.06.11.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

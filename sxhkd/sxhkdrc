@@ -3,7 +3,7 @@
 
 # Terminal (termite)
 super + Return
-	alacritty
+	kitty
 
 #TO SOCIAL
 super + 9    
@@ -11,7 +11,7 @@ super + 9
 
 # Floating terminal
 super + shift + Return
-	alacritty -f
+	kitty -f
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -76,17 +76,17 @@ ctrl + alt + o
     mpc volume -5    
 ##--------- Thunar shortcuts -------#
 ctrl + alt + h
-    alacritty -e ranger
+    kitty -e ranger
 ctrl + alt + a
-    alacritty -e ranger /mnt/media_m/Anime
+    kitty -e ranger /mnt/media_m/Anime
 ctrl + alt + t
-    alacritty -e ranger ~/Videos
+    kitty -e ranger ~/Videos
 ctrl + alt + d
-    alacritty -e ranger /mnt/downloads
+    kitty -e ranger /mnt/downloads
 ctrl + alt + w
-    alacritty -e ranger /mnt/work  
+    kitty -e ranger /mnt/work  
 ctrl + alt + s
-    alacritty -e ranger /mnt/study/Second_year
+    kitty -e ranger /mnt/study/Second_year
 
 ##----------------scripts---------------#
 

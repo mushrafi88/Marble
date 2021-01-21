@@ -6,7 +6,13 @@
 
 config_version: 2
 settings:
+  content.desktop_capture:
+    https://www.facebook.com: true
   content.media.audio_capture:
+    https://www.facebook.com: true
+  content.media.audio_video_capture:
+    https://www.facebook.com: true
+  content.media.video_capture:
     https://www.facebook.com: true
   content.notifications:
     https://www.reddit.com: true

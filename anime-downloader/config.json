@@ -14,7 +14,7 @@
         "force_download": false,
         "player": null,
         "provider": "twist.moe",
-        "quality": "1080p",
+        "quality": "720p",
         "selescrape_browser": null,
         "selescrape_browser_executable_path": null,
         "selescrape_driver_binary_path": null,
@@ -29,7 +29,7 @@
             "vidstream",
             "watchmovie"
         ],
-        "file_format": "{animeinfo_anime_title}/{animeinfo_anime_title}_{provider}_{ep_no}",
+        "file_format": "{{animeinfo_anime_title}_{provider}_{ep_no}",
         "provider": "twist.moe",
         "ratio": 50
     },
@@ -178,6 +178,13 @@
             ],
             "version": "dubbed"
         },
+        "egyanime": {
+            "servers": [
+                "clipwatching",
+                "streamtape"
+            ],
+            "version": "subbed"
+        },
         "gogoanime": {
             "server": "cdn",
             "version": "subbed"
@@ -279,6 +286,7 @@
             "360p"
         ],
         "log_level": "INFO",
+        "mpv_arguments": "",
         "provider": "twist.moe",
         "quality": "1080p"
     }
