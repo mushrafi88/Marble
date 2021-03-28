@@ -65,7 +65,7 @@ bspc rule -a Kite desktop='^2' split_ratio=0.80
 ## Autostart -------------------------------#
 
 # Kill if already running
-killall -9 mpd udiskie dunst sxhkd pcmanfm xsettingsd dunst  megasync  stremio  transmission-gtk kdeconnect-cli
+killall -9 mpd udiskie dunst sxhkd pcmanfm xsettingsd dunst  megasync  stremio  transmission-gtk kdeconnect-indicator
 
 
 
@@ -83,8 +83,7 @@ ksuperkey -e 'Super_R=Alt_L|F1' &
 xsetroot -cursor_name left_ptr
 
 # Restore wallpaper
-bash $HOME/.fehbg 
-
+feh --no-bg --bg-scale $HOME/Pictures/wallpapers/artwork/0027.jpg
 
 # Start bspwm scripts
 #bspcolors
@@ -101,7 +100,8 @@ mpd &
 numlockx &
 fdm &
 dunst &
-kdeconnect-cli &
+kdeconnect-indicator &
 transmission-gtk &
 optimus-manager-qt &
 megasync &
+rss-regular-notification &

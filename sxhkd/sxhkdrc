@@ -53,7 +53,7 @@ super + shift + g
 
 # Take a screenshot
 Print
-	scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/Desktop-ss/'
+	scrot '%M-%S.png' -e 'mv $f ~/Pictures/Webcam'
 	
 # Take a screenshot in 5 second
 #alt + Print	
@@ -78,9 +78,9 @@ ctrl + alt + o
 ctrl + alt + h
     kitty -e ranger
 ctrl + alt + a
-    kitty -e ranger /mnt/media_m/Anime
+    kitty -e ranger /home/venerable_white/Videos/Anime
 ctrl + alt + t
-    kitty -e ranger ~/Videos
+    tdrop -am -w 1905 -h 500 -y 35 -x 10 kitty
 ctrl + alt + d
     kitty -e ranger /mnt/downloads
 ctrl + alt + w

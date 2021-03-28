@@ -15,7 +15,15 @@ settings:
   content.media.video_capture:
     https://www.facebook.com: true
   content.notifications:
+    https://ibb.co: false
+    https://kickasstorrents.to: false
+    https://matswhyask.cam: false
+    https://www.1377x.to: false
+    https://www.facebook.com: true
+    https://www.javatpoint.com: false
     https://www.reddit.com: true
+    https://www.upwork.com: true
+    https://www.youtube.com: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   statusbar.show:
