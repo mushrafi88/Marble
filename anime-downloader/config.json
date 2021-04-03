@@ -240,6 +240,12 @@
         },
         "ryuanime": {
             "server": "trollvid",
+            "servers": [
+                "vidstream",
+                "mp4upload",
+                "xstreamcdn",
+                "trollvid"
+            ],
             "version": "subbed"
         },
         "vidstream": {

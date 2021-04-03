@@ -24,6 +24,7 @@ text/css=firefox-beta-bin.desktop;
 application/epub+zip=FBReader.desktop;firefox-beta-bin.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-3L98V0.desktop;
 image/vnd.djvu=wps-office-pdf.desktop;
+application/rss+xml=org.qutebrowser.qutebrowser.desktop;
 
 [Default Applications]
 video/x-matroska=mpv.desktop

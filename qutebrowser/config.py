@@ -180,15 +180,7 @@ config.set('content.media.video_capture', True, 'https://www.facebook.com')
 #   - true
 #   - false
 #   - ask
-config.set('content.notifications', True, 'https://www.reddit.com')
 
-# Allow websites to show notifications.
-# Type: BoolAsk
-# Valid values:
-#   - true
-#   - false
-#   - ask
-config.set('content.notifications', True, 'https://www.upwork.com')
 
 # Allow websites to register protocol handlers via
 # `navigator.registerProtocolHandler`.

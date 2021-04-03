@@ -130,26 +130,26 @@ IconSize=16
 ToolButtonStyle=TextOnly
 
 [Recent Files]
-File1[$e]=/mnt/study/Second_year/Books/ODE/Differential equations and their applications an introduction to applied mathematics by Martin Braun (z-lib.org).pdf
-File10[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector_and_Tensor_Calculus_Frankensteins.pdf
-File2[$e]=/mnt/study/Important files/passport/Registration_form_1000758386.pdf
-File3[$e]=/mnt/study/Important files/passport/appointment.pdf
-File4[$e]=/mnt/study/SSC/Class 9-10 Chemistry - (BDeBooks.com).pdf
-File5[$e]=/mnt/study/HSC/HSC Chemistry Books/Chemistry 2nd Paper for HSC by Hazari Sir.pdf
-File6[$e]=/mnt/study/Second_year/Books/Calculus/[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
-File7[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
-File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
-File9[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-Name1[$e]=Differential equations and their applications an introduction to applied mathematics by Martin Braun (z-lib.org).pdf
-Name10[$e]=Vector_and_Tensor_Calculus_Frankensteins.pdf
-Name2[$e]=Registration_form_1000758386.pdf
-Name3[$e]=appointment.pdf
-Name4[$e]=Class 9-10 Chemistry - (BDeBooks.com).pdf
-Name5[$e]=Chemistry 2nd Paper for HSC by Hazari Sir.pdf
-Name6[$e]=[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
-Name7[$e]=A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
-Name8[$e]=A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
-Name9[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+File1[$e]=/mnt/study/Important files/passport/Registration_form_1000758386.pdf
+File10[$e]=/mnt/study/Second_year/Web_notes/tensors/tensors-by-eigenchris/noob.pdf
+File2[$e]=/mnt/study/Important files/passport/appointment.pdf
+File3[$e]=/mnt/study/SSC/Class 9-10 Chemistry - (BDeBooks.com).pdf
+File4[$e]=/mnt/study/HSC/HSC Chemistry Books/Chemistry 2nd Paper for HSC by Hazari Sir.pdf
+File5[$e]=/mnt/study/Second_year/Books/Calculus/[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
+File6[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
+File7[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
+File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+File9[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector_and_Tensor_Calculus_Frankensteins.pdf
+Name1[$e]=Registration_form_1000758386.pdf
+Name10[$e]=noob.pdf
+Name2[$e]=appointment.pdf
+Name3[$e]=Class 9-10 Chemistry - (BDeBooks.com).pdf
+Name4[$e]=Chemistry 2nd Paper for HSC by Hazari Sir.pdf
+Name5[$e]=[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
+Name6[$e]=A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
+Name7[$e]=A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
+Name8[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+Name9[$e]=Vector_and_Tensor_Calculus_Frankensteins.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

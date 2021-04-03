@@ -53,7 +53,7 @@ super + shift + g
 
 # Take a screenshot
 Print
-	scrot '%M-%S.png' -e 'mv $f ~/Pictures/Webcam'
+	scrot '%H%M%S.png' -e 'mv $f ~/Pictures/tensor'
 	
 # Take a screenshot in 5 second
 #alt + Print	

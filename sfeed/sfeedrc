@@ -1,7 +1,6 @@
 #sfeedpath="$HOME/.sfeed/feeds"
 
 
-
 # list of feeds to fetch:
 feeds() {
 	# feed <name> <feedurl> [basesiteurl] [encoding]
@@ -9,6 +8,20 @@ feeds() {
 
 	feed 'ML' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&client_hires=0%2C1-9&contractor_tier=1%2C2%2C3&proposals=0-4%2C5-9&q=deep+learning+machine+learning&sort=recency&job_type=hourly%2Cfixed&paging=0%3B10&api_params=1&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
 
-	feed 'NLP' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&client_hires=0%2C1-9&contractor_tier=1%2C2%2C3&proposals=0-4%2C5-9&q=nlp+python+nlp&sort=recency&job_type=hourly%2Cfixed&paging=0%3B10&api_params=1&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+	feed 'NLP' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&contractor_tier=1%2C2%2C3&ontology_skill_uid=1031626761858170880&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
 
-	}
+	
+	feed 'yolo' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&client_hires=0%2C1-9%2C10-&proposals=0-4%2C5-9&q=yolo&sort=recency&job_type=hourly%2Cfixed&paging=0%3B10&api_params=1&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'cuda' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&ontology_skill_uid=1031626728886747136&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'data science consultation' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&ontology_skill_uid=1253342872917913600&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'computer vision' 'https://www.upwork.com/ab/feed/jobs/rss?budget=0-99%2C100-499&client_hires=0%2C1-9%2C10-&ontology_skill_uid=1031626726596657152&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'tensorflow' 'https://www.upwork.com/ab/feed/jobs/rss?contractor_tier=1%2C2%2C3&ontology_skill_uid=1031626785698594816&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'keras' 'https://www.upwork.com/ab/feed/jobs/rss?ontology_skill_uid=1031626752332906496&proposals=0-4%2C5-9&sort=recency&paging=0%3B10&api_params=1&q=&securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+
+	feed 'regular' 'https://www.upwork.com/ab/feed/topics/rss?securityToken=90b7f48fb5d1cc6826dab0c559f1aea0430444bafe6e8c0f5093c50d9632fd70b8fcd9ca554e4f19273556d5be25f769014fcb8801ce833c5afb4d1a91d328b5&userUid=1360837446929395712&orgUid=1360837446929395713'
+}
