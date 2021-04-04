@@ -53,7 +53,7 @@ super + shift + g
 
 # Take a screenshot
 Print
-	scrot '%H%M%S.png' -e 'mv $f ~/Pictures/tensor'
+	scrot '%H%M%S.png' -e 'mv $f ~/Pictures/showoff'
 	
 # Take a screenshot in 5 second
 #alt + Print	
