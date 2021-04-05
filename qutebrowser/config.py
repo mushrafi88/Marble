@@ -265,8 +265,7 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
                         }
 
 
-c.url.start_pages = ['https://anichart.net']
-
+c.url.start_pages = ['file:///home/venerable_white/startpage-browser/index.html']
 c.zoom.default = '125%'
 
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']

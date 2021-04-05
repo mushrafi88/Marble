@@ -12,6 +12,9 @@ RenderMode=Recolor
 [General]
 ShellOpenFileInTabs=true
 
+[Main View]
+ShowLeftPanel=false
+
 [PageView]
 ViewColumns=2
 

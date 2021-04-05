@@ -1,7 +1,9 @@
 % egrep -v '^#' .ncmpcpp/config
 mpd_music_dir = "~/Music/"
+#visualizer_data_source = /tmp/mpd.fifo
 visualizer_in_stereo = "yes"
 visualizer_output_name = "my_fifo"
+#visualizer_sync_interval = 0
 visualizer_type = "spectrum"
 visualizer_look = "◆▋"
 message_delay_time = "3"
@@ -30,4 +32,5 @@ mpd_port = "6600"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
 enable_window_title = "yes"
-song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
+song_columns_list_format = "(40)[cyan]{f} (7f)[green]{l}"
+execute_on_song_change = "~/.config/bspwm/bin/cover-finder-ncmpcpp"

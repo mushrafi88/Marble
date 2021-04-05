@@ -117,13 +117,13 @@ eDP-1 HDMI-1 Width 1920=1906
 eDP-1 HDMI-1 XPosition=1927
 eDP-1 HDMI-1 YPosition=41
 eDP-1 Height 1080=1032
-eDP-1 Height 1920x1080=1032
+eDP-1 Height 1920x1080=1020
 eDP-1 Width 1920=1906
-eDP-1 Width 1920x1080=1906
+eDP-1 Width 1920x1080=1157
 eDP-1 XPosition=7
-eDP-1 XPosition 1920x1080=7
+eDP-1 XPosition 1920x1080=755
 eDP-1 YPosition=41
-eDP-1 YPosition 1920x1080=41
+eDP-1 YPosition 1920x1080=46
 
 [MainWindow][Toolbar annotationToolBar]
 IconSize=16
@@ -131,25 +131,25 @@ ToolButtonStyle=TextOnly
 
 [Recent Files]
 File1[$e]=/mnt/study/Important files/passport/Registration_form_1000758386.pdf
-File10[$e]=/mnt/study/Second_year/Web_notes/tensors/tensors-by-eigenchris/noob.pdf
+File10[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
 File2[$e]=/mnt/study/Important files/passport/appointment.pdf
 File3[$e]=/mnt/study/SSC/Class 9-10 Chemistry - (BDeBooks.com).pdf
 File4[$e]=/mnt/study/HSC/HSC Chemistry Books/Chemistry 2nd Paper for HSC by Hazari Sir.pdf
 File5[$e]=/mnt/study/Second_year/Books/Calculus/[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
 File6[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
 File7[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
-File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-File9[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector_and_Tensor_Calculus_Frankensteins.pdf
+File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector_and_Tensor_Calculus_Frankensteins.pdf
+File9[$e]=/mnt/study/Second_year/Web_notes/tensors/tensors-by-eigenchris/noob.pdf
 Name1[$e]=Registration_form_1000758386.pdf
-Name10[$e]=noob.pdf
+Name10[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
 Name2[$e]=appointment.pdf
 Name3[$e]=Class 9-10 Chemistry - (BDeBooks.com).pdf
 Name4[$e]=Chemistry 2nd Paper for HSC by Hazari Sir.pdf
 Name5[$e]=[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
 Name6[$e]=A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
 Name7[$e]=A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).pdf
-Name8[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-Name9[$e]=Vector_and_Tensor_Calculus_Frankensteins.pdf
+Name8[$e]=Vector_and_Tensor_Calculus_Frankensteins.pdf
+Name9[$e]=noob.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
