@@ -1,0 +1,4 @@
+Tasks for Today
+1. Kaggle
+2. Keras Tutorial
+3. Tensor Calculus

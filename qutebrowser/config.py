@@ -1,13 +1,11 @@
-config.load_autoconfig(False)
-# Valid values:
-#   - all: Accept all cookies.
-#   - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
-#   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
-#   - never: Don't accept cookies at all.
+config.load_autoconfig(True)
+
+
+
+#cookies
 config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
 config.set('content.cookies.accept', 'all', 'devtools://*')
 config.set('content.desktop_capture', True, 'https://www.facebook.com')
-config.set('content.headers.accept_language', '', 'https://matchmaker.krunker.io/*')
 config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}', 'https://web.whatsapp.com/')
 config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version} Edg/{upstream_browser_version}', 'https://accounts.google.com/*')
 config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99 Safari/537.36', 'https://*.slack.com/*')
@@ -59,84 +57,57 @@ c.session.lazy_restore = False
 c.content.autoplay = False
 c.content.cache.size = 52428800
 c.content.blocking.enabled = True
-# Which method of blocking ads should be used.  Support for Adblock Plus
-# (ABP) syntax blocklists using Brave's Rust library requires the
-# `adblock` Python package to be installed, which is an optional
-# dependency of qutebrowser. It is required when either `adblock` or
-# `both` are selected.
-# Type: String
 # Valid values:
 #   - auto: Use Brave's ABP-style adblocker if available, host blocking otherwise
 #   - adblock: Use Brave's ABP-style adblocker
 #   - hosts: Use hosts blocking
 #   - both: Use both hosts blocking and Brave's ABP-style adblocker
-c.content.blocking.method = 'hosts'
+c.content.blocking.method = 'both'
 c.content.geolocation = False
 c.content.notifications = False
 c.content.pdfjs = True
-c.content.webgl = False
+c.content.webgl = True
 c.completion.height = '30%'
 c.completion.web_history.exclude = []
 c.completion.web_history.max_items = 1000
 c.downloads.location.directory = '/mnt/downloads/qt/'
 c.downloads.location.prompt = False
+c.downloads.location.remember = True
+c.downloads.open_dispatcher = None
+c.downloads.remove_finished = 1000
 c.completion.open_categories = ['quickmarks', 'history', 'searchengines']
 c.hints.border = '1px solid #CCCCCC'
-c.hints.chars = '123456789'
+c.hints.chars = 'asdfghjkl'
 c.hints.min_chars = 1
-c.hints.mode = 'number'
+c.hints.mode = 'letter'
 c.input.insert_mode.auto_load = True
-c.input.partial_timeout = 2000
-c.keyhint.blacklist = ['*']
+c.input.partial_timeout = 4000
 c.prompt.filebrowser = False
-# Valid values:
-#   - always: Always show the scrollbar.
-#   - never: Never show the scrollbar.
-#   - when-searching: Show the scrollbar when searching for text in the webpage. With the QtWebKit backend, this is equal to `never`.
-#   - overlay: Show an overlay scrollbar. On macOS, this is unavailable and equal to `when-searching`; with the QtWebKit backend, this is equal to `never`. Enabling/disabling overlay scrollbars requires a restart.
+c.content.fullscreen.overlay_timeout = 4000
+c.messages.timeout = 4000
 c.scrolling.bar = 'overlay'
 c.scrolling.smooth = False
 c.statusbar.show = 'always'
-# Valid values:
-#   - url: Current page URL.
-#   - scroll: Percentage of the current page position like `10%`.
-#   - scroll_raw: Raw percentage of the current page position like `10`.
-#   - history: Display an arrow when possible to go back/forward in history.
-#   - tabs: Current active tab, e.g. `2`.
-#   - keypress: Display pressed keys when composing a vi command.
-#   - progress: Progress bar for the current page loading.
 c.statusbar.widgets = ['keypress', 'url', 'scroll', 'history', 'tabs', 'progress']
 c.tabs.background = True
 c.tabs.favicons.show = 'never'
 c.tabs.new_position.related = 'last'
 c.tabs.show = 'always'
-# Format to use for the tab title. The following placeholders are
-# defined:  * `{perc}`: Percentage as a string like `[10%]`. *
-# `{perc_raw}`: Raw percentage, e.g. `10`. * `{current_title}`: Title of
-# the current web page. * `{title_sep}`: The string `" - "` if a title
-# is set, empty otherwise. * `{index}`: Index of this tab. *
-# `{aligned_index}`: Index of this tab padded with spaces to have the
-# same   width. * `{id}`: Internal tab ID of this tab. * `{scroll_pos}`:
-# Page scroll position. * `{host}`: Host of the current web page. *
-# `{backend}`: Either `webkit` or `webengine` * `{private}`: Indicates
-# when private mode is enabled. * `{current_url}`: URL of the current
-# web page. * `{protocol}`: Protocol (http/https/...) of the current web
-# page. * `{audio}`: Indicator for audio/mute status.
-# Type: FormatString
 c.tabs.title.format = '{index}:{current_title}'
-c.zoom.default = '125%'
-
+#c.zoom.default = '125%'
+c.qt.highdpi = True
 
 #darkmode
+c.colors.webpage.bg = "black"
 c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
-c.colors.webpage.darkmode.contrast = 0.12
+c.colors.webpage.darkmode.contrast = 0.75
 c.colors.webpage.darkmode.enabled = True
 c.colors.webpage.darkmode.grayscale.all = True
-c.colors.webpage.darkmode.grayscale.images = 0.12
+c.colors.webpage.darkmode.grayscale.images = 0.2
 c.colors.webpage.darkmode.policy.images = 'smart'
 c.colors.webpage.darkmode.policy.page = 'smart'
-#c.colors.webpage.darkmode.threshold.background = 0.0
-#c.colors.webpage.darkmode.threshold.text = 0.0
+#c.colors.webpage.darkmode.threshold.background = 0
+c.colors.webpage.darkmode.threshold.text = 120
 
 
 
@@ -208,7 +179,7 @@ c.fonts.completion.entry = '8pt Noto Sans Mono'
 c.fonts.completion.category = '8pt Noto Sans Mono'
 c.fonts.downloads = '8pt Noto Sans Mono'
 c.fonts.hints = '13px Noto Sans Mono'
-c.fonts.keyhint = '7pt Noto Sans Mono'
+c.fonts.keyhint = '10pt Noto Sans Mono'
 c.fonts.messages.error = '7pt Noto Sans Mono'
 c.fonts.messages.info = '7pt Noto Sans Mono'
 c.fonts.messages.warning = '7pt Noto Sans Mono'
@@ -222,9 +193,8 @@ c.fonts.tabs.unselected = '7pt Noto Sans Mono'
 
 
 
-
-
 # Bindings for normal mode
+config.bind('<Ctrl-Shift-a>','hint --rapid links spawn --userscript umpv {hint-url}')
 config.bind(';vc', 'spawn youtube-dl -ci -f bestvideo[ext=mp4][height<1200]+bestaudio[ext=m4a]/best -o /mnt/downloads/youtube-dl/%(title)s.%(ext)s {url}')
 config.bind(';vh', 'hint links spawn youtube-dl -ci -f bestvideo[ext=mp4][height<1200]+bestaudio[ext=m4a]/best -o /mnt/downloads/youtube-dl/%(title)s.%(ext)s {hint-url}')
 config.bind(';nf', 'spawn firefox-beta {url}' )
@@ -245,18 +215,18 @@ config.bind(';R', 'hint --rapid links window')
 config.bind(';Y', 'hint links yank-primary')
 config.bind(';b', 'hint all tab-bg')
 config.bind(';d', 'hint links download')
-# config.bind(';f', 'hint all tab-fg')
-# config.bind(';h', 'hint all hover')
+config.bind(';f', 'hint all tab-fg')
+config.bind(';h', 'hint all hover')
 config.bind(';i', 'hint images')
 config.bind(';o', 'hint links fill :open {hint-url}')
-# config.bind(';r', 'hint --rapid links tab-bg')
-# config.bind(';t', 'hint inputs')
+config.bind(';r', 'hint --rapid links tab-bg')
+config.bind(';t', 'hint inputs')
 config.bind(';y', 'hint links yank')
 config.bind('<Alt-1>', 'tab-focus 1')
 config.bind('<Alt-2>', 'tab-focus 2')
-# config.bind('<Alt-m>', 'tab-mute')
+config.bind('<Alt-m>', 'tab-mute')
 config.bind('<Ctrl-A>', 'navigate increment')
-# config.bind('<Ctrl-Alt-p>', 'print')
+config.bind('<Ctrl-Alt-p>', 'print')
 config.bind('<Ctrl-B>', 'scroll-page 0 -1')
 config.bind('<Ctrl-D>', 'scroll-page 0 0.5')
 config.bind('<Ctrl-F5>', 'reload -f')

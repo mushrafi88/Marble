@@ -19,10 +19,30 @@
     		text-decoration: none;
     		color: #eff;
     	}*/
+        .note{
+              position: absolute;
+              top: 10px;
+              right: 15px;
+              font-family: 'Product Sans', sans-serif;
+            /*min-width: -10vw;
+            min-height: 0vh;
+            display: flex;
+            align-items: right;
+            justify-content: right;*/
+        }
 
+        .anime{
+            min-width: 0vw;
+            min-height: 0vh;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+
+
+        }
     	.main{
-    		min-width: 100vw;
-    		min-height: 100vh;
+    		min-width: 80vw;
+    		min-height: 70vh;
     		display: flex;
     		align-items: center;
     		justify-content: center;
@@ -74,25 +94,15 @@
     		margin: 20px;
     	}
 
-    	input{
-    		width: 300px;
-    		background: transparent;
-    		border: none;
-    		border-bottom: 1px solid gray;
-    		/*box-shadow: 0 0 6px 5px #303836;*/
-    		height: 40px;
-    		border-radius: 4px;
-    		outline: none;
-    		padding-left: 10px;
-    		transition: all 0.4s ease-in-out;
-    		color: #6a6a6a;
-    		font-size: 16px;
-    		font-family: 'Product Sans', sans-serif;
-    	}
     </style>
   </head>
   <body>
+
+            <div class="anime">
+            <object type="text/plain" data="anime.txt"></object>
+            </div>
   	<div class="main">
+        
   		<div class="container">
 	  		<div class="image">
 	  			<img src="imgs/boy.jpg">
@@ -135,5 +145,9 @@
 	  		</div>
   		</div>
   	</div>
+                <div class="note">
+            <object type="text/plain" data="note.txt" ></object>
+            </div>
+
   </body>
 </html>

@@ -83,7 +83,7 @@ ksuperkey -e 'Super_R=Alt_L|F1' &
 xsetroot -cursor_name left_ptr
 
 # Restore wallpaper
-feh --no-bg --bg-scale $HOME/Pictures/wallpapers/artwork/0027.jpg
+feh --no-bg --bg-scale $HOME/Pictures/wallpapers/arch/01.jpg
 
 # Start bspwm scripts
 #bspcolors
@@ -104,6 +104,11 @@ kdeconnect-indicator &
 transmission-gtk &
 optimus-manager-qt &
 megasync &
+killswitch rss-regular-notification &
+killswitch anime-downloader-daily &
+killswitch dl-music-from-youtube-weekly &
+killswitch anime-notification-browser &
 rss-regular-notification &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
+anime-notification-browser &
