@@ -13,4 +13,4 @@ settings:
   tabs.show:
     global: always
   zoom.default:
-    global: 125%
+    global: '125'

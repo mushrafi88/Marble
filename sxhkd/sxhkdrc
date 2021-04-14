@@ -80,7 +80,7 @@ ctrl + alt + h
 ctrl + alt + a
     kitty -e ranger /home/venerable_white/Videos/Anime
 ctrl + alt + t
-    tdrop -am -w 1905 -h 500 -y 35 -x 10 kitty
+    tdrop -am -w 1905 -h 500 -y 35 -x 10 kitty 
 ctrl + alt + d
     kitty -e ranger /mnt/downloads
 ctrl + alt + w
@@ -114,7 +114,7 @@ ctrl + alt + {q,r}
 	bspc {quit,wm -r}
 
 # Close App
-alt + F4
+ctrl + q
 	bspc node -c
 
 # kill

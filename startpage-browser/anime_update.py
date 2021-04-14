@@ -54,9 +54,9 @@ def airing_time(id_for_airing):
 def mahayana(l):
     name,id_for_airing = name_id(l)
     airing_t,episode,epoch = airing_time(id_for_airing)
-    if epoch - time.time() < 1*24*3600:
+    if epoch - time.time() < 2*24*3600:
         print(f'{name} Episode {episode} airing at {airing_t}')
         
-list = [117193,114535,114232,119675,128546,114840]
+list = [117193,114535,114232,119675,128546,114840,126791]
 for l in list:
     mahayana(l)        

@@ -131,7 +131,7 @@ ToolButtonStyle=TextOnly
 
 [Recent Files]
 File1[$e]=/mnt/study/SSC/Class 9-10 Chemistry - (BDeBooks.com).pdf
-File10[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Fourier Analysis/A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
+File10[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
 File2[$e]=/mnt/study/HSC/HSC Chemistry Books/Chemistry 2nd Paper for HSC by Hazari Sir.pdf
 File3[$e]=/mnt/study/Second_year/Books/Calculus/[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
 File4[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
@@ -139,9 +139,9 @@ File5[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/A Students G
 File6[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector_and_Tensor_Calculus_Frankensteins.pdf
 File7[$e]=/mnt/study/Second_year/Web_notes/tensors/tensors-by-eigenchris/noob.pdf
 File8[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Mathematical methods/[K._F._Riley,_M._P._Hobson,_S._J._Bence]_Mathemat(www.Iranidata.com).pdf
-File9[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+File9[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Fourier Analysis/A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
 Name1[$e]=Class 9-10 Chemistry - (BDeBooks.com).pdf
-Name10[$e]=A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
+Name10[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
 Name2[$e]=Chemistry 2nd Paper for HSC by Hazari Sir.pdf
 Name3[$e]=[Robert-Wrede,-Murray-Spiegel]-Schaum's-Advanced Calculus.pdf
 Name4[$e]=A First Course in General Relativity by Bernard Schutz (z-lib.org).pdf
@@ -149,7 +149,7 @@ Name5[$e]=A Students Guide to Vectors and Tensors by Daniel Fleisch (z-lib.org).
 Name6[$e]=Vector_and_Tensor_Calculus_Frankensteins.pdf
 Name7[$e]=noob.pdf
 Name8[$e]=[K._F._Riley,_M._P._Hobson,_S._J._Bence]_Mathemat(www.Iranidata.com).pdf
-Name9[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
+Name9[$e]=A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
