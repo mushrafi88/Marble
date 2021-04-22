@@ -18,16 +18,11 @@ config.set('content.javascript.enabled', True, 'devtools://*')
 config.set('content.javascript.enabled', True, 'chrome://*/*')
 config.set('content.javascript.enabled', True, 'qute://*/*')
 #media_Capture
-config.set('content.media.audio_capture', True, 'https://www.facebook.com')
-config.set('content.media.audio_video_capture', True, 'https://www.facebook.com')
-config.set('content.media.video_capture', True, 'https://www.facebook.com')
+c.content.media.audio_capture = True
+c.content.media.audio_video_capture = True
+c.content.media.video_capture = True
 #notification
-config.set('content.notifications', False, 'https://kickasstorrents.to')
-config.set('content.notifications', False, 'https://www.1377x.to')
-config.set('content.notifications', True, 'https://www.facebook.com')
-config.set('content.notifications', True, 'https://www.reddit.com')
-config.set('content.notifications', True, 'https://www.upwork.com')
-config.set('content.notifications', False, 'https://www.youtube.com')
+
 config.set('content.register_protocol_handler', True, 'https://mail.google.com?extsrc=mailto&url=%25s')
 
 
@@ -79,7 +74,7 @@ c.content.blocking.adblock.lists = [
         "https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt",
         "/home/venerable_white/.config/qutebrowser/blocked-hosts"]
 c.content.geolocation = False
-c.content.notifications = False
+c.content.notifications.enabled = False
 c.content.pdfjs = True
 c.content.webgl = True
 c.completion.height = '30%'
