@@ -60,12 +60,14 @@ bspc rule -a mpv state=floating
 bspc rule -a qutebrowser desktop='^3' follow=on focus=on
 bspc rule -a Pavucontrol state=floating 
 bspc rule -a Kite desktop='^2' split_ratio=0.80
+bspc rule -a TelegramDesktop desktop='^8' follow=off focus=off
+bspc rule -a discord desktop='^8' follow=off focus=off
 
 
 ## Autostart -------------------------------#
 
 # Kill if already running
-killall -9 mpd udiskie dunst sxhkd pcmanfm xsettingsd dunst  megasync  stremio  transmission-gtk kdeconnect-indicator
+killall -9 mpd udiskie dunst sxhkd pcmanfm xsettingsd dunst  megasync  stremio  transmission-gtk kdeconnect-indicator telegram-desktop discord
 
 
 
@@ -108,7 +110,10 @@ killswitch rss-regular-notification &
 killswitch anime-downloader-daily &
 killswitch dl-music-from-youtube-weekly &
 killswitch anime-notification-browser &
+killswitch medicine &
 rss-regular-notification &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
 anime-notification-browser &
+#telegram-desktop &
+#discord &

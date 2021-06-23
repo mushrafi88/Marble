@@ -10,7 +10,7 @@
             "480p",
             "360p"
         ],
-        "file_format": "{anime_title}_{ep_no}",
+        "file_format": "{anime_title}_episode_{ep_no}",
         "force_download": false,
         "player": null,
         "provider": "vidstream",

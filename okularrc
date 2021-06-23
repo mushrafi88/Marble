@@ -107,7 +107,6 @@ contrast=4
 [MainWindow]
 Height 1080=1052
 MenuBar=Disabled
-RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAAB2YAAAPbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1920=1916
@@ -131,26 +130,26 @@ IconSize=16
 ToolButtonStyle=TextOnly
 
 [Recent Files]
-File1[$e]=/mnt/study/Second_year/Web_notes/tensors/tensors-by-eigenchris/noob.pdf
-File10[$e]=/mnt/study/Second_year/Cygnus97/Electronics/A/Electronics A Maisha (1st to 2nd incourse).pdf
-File2[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Mathematical methods/[K._F._Riley,_M._P._Hobson,_S._J._Bence]_Mathemat(www.Iranidata.com).pdf
-File3[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Fourier Analysis/A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
-File4[$e]=/mnt/study/Second_year/Books/Mathematical Physics/Tensors/Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-File5[$e]=/mnt/study/Second_year/Cygnus97/Electronics/B/Electronics B Soyeta (Full Lecture).pdf
-File6[$e]=/mnt/study/Second_year/Books/Electricity and magnetism and Electronics/[Robert-L.-Boylestad,-Louis-Nashelsky]-Electronic-(z-lib.org).pdf
-File7[$e]=/mnt/study/Second_year/Cygnus97/Electronics/A/Electronics notes Tonni.pdf
-File8[$e]=/mnt/study/Second_year/Cygnus97/Electronics/A/Electronics A Urmi (After 1st incourse).pdf
-File9[$e]=/mnt/study/Second_year/Cygnus97/Electronics/A/Electronics A Tonni (before 1st incourse).pdf
-Name1[$e]=noob.pdf
-Name10[$e]=Electronics A Maisha (1st to 2nd incourse).pdf
-Name2[$e]=[K._F._Riley,_M._P._Hobson,_S._J._Bence]_Mathemat(www.Iranidata.com).pdf
-Name3[$e]=A Students Guide to Fourier Transforms With Applications in Physics and Engineering, Third edition by J. F. James (z-lib.org).pdf
-Name4[$e]=Vector Analysis by Murray Spiegel, Seymour Lipschutz, Dennis Spellman (z-lib.org).pdf
-Name5[$e]=Electronics B Soyeta (Full Lecture).pdf
-Name6[$e]=[Robert-L.-Boylestad,-Louis-Nashelsky]-Electronic-(z-lib.org).pdf
-Name7[$e]=Electronics notes Tonni.pdf
-Name8[$e]=Electronics A Urmi (After 1st incourse).pdf
-Name9[$e]=Electronics A Tonni (before 1st incourse).pdf
+File1[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media-543868387.pdf
+File10[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media165503619.pdf
+File2[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media-279746980.pdf
+File3[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media2055345509.pdf
+File4[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1856767596.pdf
+File5[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1603914682.pdf
+File6[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1024993214.pdf
+File7[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media466719639.pdf
+File8[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media464551947.pdf
+File9[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media273318571.pdf
+Name1[$e]=local_media-543868387.pdf
+Name10[$e]=local_media165503619.pdf
+Name2[$e]=local_media-279746980.pdf
+Name3[$e]=local_media2055345509.pdf
+Name4[$e]=local_media1856767596.pdf
+Name5[$e]=local_media1603914682.pdf
+Name6[$e]=local_media1024993214.pdf
+Name7[$e]=local_media466719639.pdf
+Name8[$e]=local_media464551947.pdf
+Name9[$e]=local_media273318571.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
