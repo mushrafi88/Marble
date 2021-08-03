@@ -130,26 +130,26 @@ IconSize=16
 ToolButtonStyle=TextOnly
 
 [Recent Files]
-File1[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media-543868387.pdf
-File10[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media165503619.pdf
-File2[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media-279746980.pdf
-File3[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media2055345509.pdf
-File4[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1856767596.pdf
-File5[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1603914682.pdf
-File6[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media1024993214.pdf
-File7[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media466719639.pdf
-File8[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media464551947.pdf
-File9[$e]=/mnt/study/Second_year/GravitaX/Stat/local_media273318571.pdf
-Name1[$e]=local_media-543868387.pdf
-Name10[$e]=local_media165503619.pdf
-Name2[$e]=local_media-279746980.pdf
-Name3[$e]=local_media2055345509.pdf
-Name4[$e]=local_media1856767596.pdf
-Name5[$e]=local_media1603914682.pdf
-Name6[$e]=local_media1024993214.pdf
-Name7[$e]=local_media466719639.pdf
-Name8[$e]=local_media464551947.pdf
-Name9[$e]=local_media273318571.pdf
+File1[$e]=/mnt/study/Important files/admission/New folder/JU_download_admit.pdf
+File10[$e]=/mnt/downloads/Firefox_dl/nazmul.pdf
+File2[$e]=/mnt/study/Important files/admission/WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf
+File3[$e]=/mnt/study/Second_year/Books/Advanced mechanics/Electricity and Magnetism by Purcell E.M., Morin D.J. (z-lib.org).pdf
+File4[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+File5[$e]=/mnt/study/Second_year/Books/Optics/[Eugene-Hecht]-Optics,-Global-Edition(z-lib.org).pdf
+File6[$e]=/mnt/study/Second_year/Cygnus97/Optics/A/Optics A Tonni (Full Lecture).pdf
+File7[$e]=/mnt/study/Second_year/Books/physics syllabus.pdf
+File8[$e]=/mnt/study/Second_year/Books/Advanced mechanics/Classical Mechanics by John R. Taylor (z-lib.org).pdf
+File9[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[George-King]-Vibrations-and-Waves(z-lib.org).pdf
+Name1[$e]=JU_download_admit.pdf
+Name10[$e]=nazmul.pdf
+Name2[$e]=WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf
+Name3[$e]=Electricity and Magnetism by Purcell E.M., Morin D.J. (z-lib.org).pdf
+Name4[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+Name5[$e]=[Eugene-Hecht]-Optics,-Global-Edition(z-lib.org).pdf
+Name6[$e]=Optics A Tonni (Full Lecture).pdf
+Name7[$e]=physics syllabus.pdf
+Name8[$e]=Classical Mechanics by John R. Taylor (z-lib.org).pdf
+Name9[$e]=[George-King]-Vibrations-and-Waves(z-lib.org).pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
