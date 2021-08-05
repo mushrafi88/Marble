@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Environtment
-export PATH="${PATH}:$HOME/.config/bspwm/bin"
+export PATH="${PATH}:$HOME/.config/bin"
 
 ## Get colors from .Xresources -------------------------------#
 focused=$(xrdb ~/.Xresources -query all | grep color6 | cut -f2 | head -n 1)
@@ -90,6 +90,8 @@ feh --no-bg --bg-scale $HOME/Pictures/wallpapers/arch/01.jpg
 
 # Start bspwm scripts
 #bspcolors
+
+sed -i '19 s/^/;/' .config/polybar/material/include-modules.ini &
 
 bspbar &
 bspcomp &

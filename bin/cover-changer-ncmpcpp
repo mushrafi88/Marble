@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source "`ueberzug library`"
+
+COVER="/mnt/media_m/Music/temp/album_cover.jpg"
+
+function add_cover {
+  ImageLayer::add [identifier]="img" [x]="2" [y]="1" [path]="$COVER"
+}
+
+ImageLayer 0< <(
+while inotifywait -q -q -e close_write "$COVER"; do
+  add_cover
+done
+)
+

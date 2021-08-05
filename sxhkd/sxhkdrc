@@ -1,5 +1,8 @@
 ##---------- Keybindings for bspwm ----------##
 
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
 
 # Terminal (termite)
 super + Return
@@ -25,22 +28,22 @@ super + n
 
 # Rofi Menus
 super + r
-	sh ~/.config/bspwm/bin/rofi-asroot
+	sh ~/.config/bin/rofi-asroot
 super + x
-    sh ~/.config/bspwm/bin/rofi-powermenu
+    sh ~/.config/bin/rofi-powermenu
 ctrl + alt + p
 	flameshot gui
 ctrl + alt + b
-	bash ~/.config/bspwm/bin/rofi-bookmark-manager
+	bash ~/.config/bin/rofi-bookmark-manager
 ctrl + alt + j
-	sh ~/.config/bspwm/bin/rofi-book-manager	
+	sh ~/.config/bin/rofi-book-manager	
 ctrl + alt + y
-    bash ~/.config/bspwm/bin/rofi_youtube_menu
+    bash ~/.config/bin/rofi_youtube_menu
 ctrl + alt + k
-    bash ~/.config/bspwm/bin/rofi-killswitch
+    bash ~/.config/bin/rofi-killswitch
 
 ctrl + alt + e
-    bash ~/.config/bspwm/bin/rofi-shell-command
+    bash ~/.config/bin/rofi-shell-command
 
 
 ##---------- Applications ----------##
@@ -61,11 +64,11 @@ Print
 
 # Brighness control
 XF86MonBrightness{Up,Down}
-	backlight{-up,-down}
+	sh ~/.config/bin/backlight{-up,-down}
 	
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume,Mute}
-	volume{-up,-down}
+	sh ~/.config/bin/volume{-up,-down}
 	
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
@@ -93,21 +96,19 @@ ctrl + alt + s
 
 
 ctrl + alt + c
-    sh ~/.config/bspwm/bin/cpu-usage-info
+    sh ~/.config/bin/cpu-usage-info
 ctrl + alt + f
     qutebrowser
 ctrl + alt + g
     firefox-beta 
 ctrl + alt + m
-    sh ~/.config/bspwm/bin/music   
+    sh ~/.config/bin/music   
 ##---------- Bspwm ----------##
 
 # Lockscreen
 ctrl + alt + l
     betterlockscreen -l
-# Reload Keybindings
-super + Escape
-	pkill -USR1 -x sxhkd
+
 
 # Quit/Restart bspwm
 ctrl + alt + {q,r}
@@ -178,11 +179,11 @@ alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 #change wallpaper
 alt + c
-    sh ~/.config/bspwm/bin/fehbg $(cat /home/venerable_white/Pictures/wallpapers/wallpaper-folder-name.txt)
+    sh ~/.config/bin/fehbg $(cat /home/venerable_white/Pictures/wallpapers/wallpaper-folder-name.txt)
 
 
 #play video in mpv
 ctrl + y + u
-    sh ~/.config/bspwm/bin/play-video-on-any-browser-in-mpv
+    sh ~/.config/bin/play-video-on-any-browser-in-mpv
 
 ##---------- EOF ----------##
