@@ -22733,3 +22733,20 @@ Aug 05 14:03 : exception: Failed to access /home/venerable_white/Music/Anime op 
 Aug 05 14:03 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 Aug 05 14:08 : player: played "Selection/Anime op & ed/(Oreimo) Ore no Imouto ga Konnani Kawaii Wake ga Nai OP 1 Full.m4a"
 Aug 05 14:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 23:11 : player: played "Selection/Anime op & ed/(Oreimo) Ore no Imouto ga Konnani Kawaii Wake ga Nai OP 1 Full.m4a"
+Aug 06 11:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 06 11:36 : player: played "Selection/Anime op & ed/(Oreimo) Ore no Imouto ga Konnani Kawaii Wake ga Nai OP 1 Full.m4a"
+Aug 06 11:36 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 06 11:36 : update: removing Selection/liked videos from youtube/might_need_trimming/How to set up Neovim 0.5 (LSP, Treesitter, fuzzy finder, etc).temp.m4a
+Aug 06 11:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 06 11:36 : update: added Selection/liked videos from youtube/might_need_trimming/Dusshopno _ দুঃস্বপ্ন (Lyrics)- Odd Signature _ Bangla New Song 2021 _ Elite Of Lyrics.m4a
+Aug 06 11:36 : update: updating Selection/liked videos from youtube/might_need_trimming/How to set up Neovim 0.5 (LSP, Treesitter, fuzzy finder, etc).m4a
+Aug 06 11:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 06 11:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 06 11:36 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 06 11:36 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory

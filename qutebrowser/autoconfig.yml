@@ -6,11 +6,7 @@
 
 config_version: 2
 settings:
-  hints.chars:
-    global: asdfghjkl
   statusbar.show:
-    global: always
+    global: never
   tabs.show:
-    global: always
-  zoom.default:
-    global: '125'
+    global: switching
