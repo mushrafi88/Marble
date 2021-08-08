@@ -137,8 +137,8 @@ File4[$e]=/mnt/study/Second_year/Cygnus97/Optics/A/Optics A Tonni (Full Lecture)
 File5[$e]=/mnt/study/Second_year/Books/physics syllabus.pdf
 File6[$e]=/mnt/study/Second_year/Books/Advanced mechanics/Classical Mechanics by John R. Taylor (z-lib.org).pdf
 File7[$e]=/mnt/study/Second_year/Books/Advanced mechanics/[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-File8[$e]=/mnt/downloads/Firefox_dl/nazmul.pdf
-File9[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+File8[$e]=/mnt/study/Second_year/Books/Advanced mechanics/A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+File9[$e]=$HOME/Diabetes/result.pdf
 Name1[$e]=WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf
 Name2[$e]=Electricity and Magnetism by Purcell E.M., Morin D.J. (z-lib.org).pdf
 Name3[$e]=[Eugene-Hecht]-Optics,-Global-Edition(z-lib.org).pdf
@@ -146,8 +146,8 @@ Name4[$e]=Optics A Tonni (Full Lecture).pdf
 Name5[$e]=physics syllabus.pdf
 Name6[$e]=Classical Mechanics by John R. Taylor (z-lib.org).pdf
 Name7[$e]=[George-King]-Vibrations-and-Waves(z-lib.org).pdf
-Name8[$e]=nazmul.pdf
-Name9[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+Name8[$e]=A student’s guide to waves by Fleisch, Daniel A. Kinnaman, Laura (z-lib.org).pdf
+Name9[$e]=result.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
