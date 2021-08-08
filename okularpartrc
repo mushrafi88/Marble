@@ -6,7 +6,6 @@ RecolorBackground=31,35,30
 RecolorForeground=222,221,218
 
 [Document]
-ChangeColors=true
 RenderMode=Recolor
 
 [General]
