@@ -1,7 +1,8 @@
-sw_volume: 85
+sw_volume: 75
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: stop
+current: 761
 random: 1
 repeat: 1
 single: 1
@@ -1033,51 +1034,56 @@ playlist_begin
 1020:Selection/liked videos from youtube/might_need_trimming/BESABRIYAAN Full Video Song _ M. S. DHONI - THE UNTOLD STORY _ Sushant Singh Rajput.m4a
 1021:Selection/liked videos from youtube/might_need_trimming/Chris Avantgarde - Inside ft. Red Rosamond (Lyrics) (From Lucifer Season 5).m4a
 1022:Selection/liked videos from youtube/might_need_trimming/Darshan Raval - Tera Zikr _ SoundBound _ Tor Kotha.m4a
-1023:Selection/liked videos from youtube/might_need_trimming/Don Omar - Danza Kuduro ft. Lucenzo.m4a
-1024:Selection/liked videos from youtube/might_need_trimming/Dusshopno _ দুঃস্বপ্ন (Lyrics)- Odd Signature _ Bangla New Song 2021 _ Elite Of Lyrics.m4a
-1025:Selection/liked videos from youtube/might_need_trimming/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).m4a
-1026:Selection/liked videos from youtube/might_need_trimming/ELUVEITIE - The Call Of The Mountains (OFFICIAL MUSIC VIDEO).m4a
-1027:Selection/liked videos from youtube/might_need_trimming/Eminem - Lose Yourself [HD].m4a
-1028:Selection/liked videos from youtube/might_need_trimming/Eminem - Till I Collapse [HD].m4a
-1029:Selection/liked videos from youtube/might_need_trimming/Firiye Dao Amari Prem Tumi (ফিরিয়ে দাও আমারি প্রেম তুমি) _ Miles _ Lyrics _ SCRIPTED SYMPHONIES.m4a
-1030:Selection/liked videos from youtube/might_need_trimming/Ghalat Fehmi (From 'Superstar').m4a
-1031:Selection/liked videos from youtube/might_need_trimming/Haste Dekho _ Ayub Bacchu _ HD Lyrics.m4a
-1032:Selection/liked videos from youtube/might_need_trimming/Hoor - Atif Aslam _ Hindi Medium_ ft. Irfaan Khan.m4a
-1033:Selection/liked videos from youtube/might_need_trimming/How to set up Neovim 0.5 (LSP, Treesitter, fuzzy finder, etc).m4a
-1034:Selection/liked videos from youtube/might_need_trimming/Humko Tum Mil Gaye (Video) - Naresh Sharma ft.Vishal Mishra _ Hina Khan, Dheeraj Dhoopar _ Sayeed Q.m4a
-1035:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - Bad Liar.m4a
-1036:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - Demons (Official Video).m4a
-1037:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - It's Time.m4a
-1038:Selection/liked videos from youtube/might_need_trimming/Jo Tu Na Mila - Acoustic Version _ Asim Azhar.m4a
-1039:Selection/liked videos from youtube/might_need_trimming/Lakshya Full Video - Title Track_Hrithik Roshan_Shankar Ehsaan Loy_Javed Akhtar.m4a
-1040:Selection/liked videos from youtube/might_need_trimming/Lyrical  - Taare Zameen Par  (Title Song) _ Aamir Khan, Darsheel Safary _ Shankar, Ehsaan, Loy .m4a
-1041:Selection/liked videos from youtube/might_need_trimming/Maine Royaan _ Lofi~Remix _ My First Track _ Tanveer Evan..m4a
-1042:Selection/liked videos from youtube/might_need_trimming/Maine Royaan _ Official Music Video _ Piran Khan Ft. Tanveer Evan.m4a
-1043:Selection/liked videos from youtube/might_need_trimming/Mersal - Neethanae Tamil Lyric Video _ Vijay, Samantha _ A R Rahman _ Atlee.m4a
-1044:Selection/liked videos from youtube/might_need_trimming/Metal Guitar Stuff - Challenges (Extended Edition).m4a
-1045:Selection/liked videos from youtube/might_need_trimming/Original Song - CHALLENGES [ Metal, Metalcore] _ TABS.m4a
-1046:Selection/liked videos from youtube/might_need_trimming/Original Song - The Uprising [Metal, Djent, Melodeath, Metalcore].m4a
-1047:Selection/liked videos from youtube/might_need_trimming/Passenger _ Let Her Go (Official Video).m4a
-1048:Selection/liked videos from youtube/might_need_trimming/Rocky Balboa - Theme Song (HD).m4a
-1049:Selection/liked videos from youtube/might_need_trimming/Rocky theme song.m4a
-1050:Selection/liked videos from youtube/might_need_trimming/SUICIDE SILENCE - You Only Live Once (OFFICIAL VIDEO).m4a
-1051:Selection/liked videos from youtube/might_need_trimming/Superunknown - Lost In A Maze (Official Lyric Video).m4a
-1052:Selection/liked videos from youtube/might_need_trimming/System Of A Down - Chop Suey! (Official Video).m4a
-1053:Selection/liked videos from youtube/might_need_trimming/Taarif Karoon _ Sanam.m4a
-1054:Selection/liked videos from youtube/might_need_trimming/Taray Taray - James । Shundori Toma Amar - James । With lyrics.m4a
-1055:Selection/liked videos from youtube/might_need_trimming/Tere Bin Lyrical - Bas Ek Pal _ Atif Aslam, Mithoon _ Urmila, Juhi Chawla, Jimmy Shergill & Sanjay.m4a
-1056:Selection/liked videos from youtube/might_need_trimming/The Script - Superheroes (Official Video).m4a
-1057:Selection/liked videos from youtube/might_need_trimming/Theerame 4K Video Song _ Malik _ Mahesh Narayanan _ Sushin Shyam _ Anwar Ali _ K S Chithra _ Sooraj.m4a
-1058:Selection/liked videos from youtube/might_need_trimming/Tomake  _ তোমাকে _ Artcell _ Oniket Prantor _ Original Track _ @G Series World Music.m4a
-1059:Selection/liked videos from youtube/might_need_trimming/Tomar Moner Bhetor _ Vinci Da _ Noble _ Rudranil _ Sohini _ Ritwick _ Anupam _ Srijit Mukherji _ SVF.m4a
-1060:Selection/liked videos from youtube/might_need_trimming/Toss A Coin To Your Witcher (Lyrics _ Lyric Video) [Jaskier Song].m4a
-1061:Selection/liked videos from youtube/might_need_trimming/Tum Kyu chale Aate ho _ kya mujhe pyar hai _ New song.m4a
-1062:Selection/liked videos from youtube/might_need_trimming/Tune Jo Na Kaha Song _ New York _ John Abraham, Katrina Kaif, Neil Nitin M _ Mohit Chauhan _ Pritam.m4a
-1063:Selection/liked videos from youtube/might_need_trimming/UNLIMITS -  ハロー (Message ver.).m4a
-1064:Selection/liked videos from youtube/might_need_trimming/UNLIMITS - Hello ハロー.m4a
-1065:Selection/liked videos from youtube/might_need_trimming/UNLIMITS - Hero.m4a
-1066:Selection/liked videos from youtube/might_need_trimming/Ye Jo Halka Halka Saroor Hai - Ustad Nusrat Fateh Ali Khan - OSA Official HD Video.m4a
-1067:Selection/liked videos from youtube/might_need_trimming/মেয়ে তুমি কি দুঃখ চেনো _ Meye _ Ayub Bachchu _ Lyrics.m4a
-1068:Selection/liked videos from youtube/might_need_trimming/周杰倫 Jay Chou【聽見下雨的聲音 Rhythm of the Rain】Official MV.m4a
-1069:Selection/liked videos from youtube/might_need_trimming/胡夏 Xia Hu - Those Bygone Years 那些年.m4a
+1023:Selection/liked videos from youtube/might_need_trimming/Diriliş - Ertuğrul Gazi   _ PLEVNE MARŞI .m4a
+1024:Selection/liked videos from youtube/might_need_trimming/Don Omar - Danza Kuduro ft. Lucenzo.m4a
+1025:Selection/liked videos from youtube/might_need_trimming/Dusshopno _ দুঃস্বপ্ন (Lyrics)- Odd Signature _ Bangla New Song 2021 _ Elite Of Lyrics.m4a
+1026:Selection/liked videos from youtube/might_need_trimming/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).m4a
+1027:Selection/liked videos from youtube/might_need_trimming/ELUVEITIE - The Call Of The Mountains (OFFICIAL MUSIC VIDEO).m4a
+1028:Selection/liked videos from youtube/might_need_trimming/Eminem - Lose Yourself [HD].m4a
+1029:Selection/liked videos from youtube/might_need_trimming/Eminem - Till I Collapse [HD].m4a
+1030:Selection/liked videos from youtube/might_need_trimming/Firiye Dao Amari Prem Tumi (ফিরিয়ে দাও আমারি প্রেম তুমি) _ Miles _ Lyrics _ SCRIPTED SYMPHONIES.m4a
+1031:Selection/liked videos from youtube/might_need_trimming/Ghalat Fehmi (From 'Superstar').m4a
+1032:Selection/liked videos from youtube/might_need_trimming/Haste Dekho _ Ayub Bacchu _ HD Lyrics.m4a
+1033:Selection/liked videos from youtube/might_need_trimming/Hoor - Atif Aslam _ Hindi Medium_ ft. Irfaan Khan.m4a
+1034:Selection/liked videos from youtube/might_need_trimming/How to set up Neovim 0.5 (LSP, Treesitter, fuzzy finder, etc).m4a
+1035:Selection/liked videos from youtube/might_need_trimming/Humko Tum Mil Gaye (Video) - Naresh Sharma ft.Vishal Mishra _ Hina Khan, Dheeraj Dhoopar _ Sayeed Q.m4a
+1036:Selection/liked videos from youtube/might_need_trimming/I Prevail - Scars (Official Music Video).m4a
+1037:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - Bad Liar.m4a
+1038:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - Demons (Official Video).m4a
+1039:Selection/liked videos from youtube/might_need_trimming/Imagine Dragons - It's Time.m4a
+1040:Selection/liked videos from youtube/might_need_trimming/Jo Tu Na Mila - Acoustic Version _ Asim Azhar.m4a
+1041:Selection/liked videos from youtube/might_need_trimming/Lakshya Full Video - Title Track_Hrithik Roshan_Shankar Ehsaan Loy_Javed Akhtar.m4a
+1042:Selection/liked videos from youtube/might_need_trimming/Lyrical  - Taare Zameen Par  (Title Song) _ Aamir Khan, Darsheel Safary _ Shankar, Ehsaan, Loy .m4a
+1043:Selection/liked videos from youtube/might_need_trimming/Maine Royaan _ Lofi~Remix _ My First Track _ Tanveer Evan..m4a
+1044:Selection/liked videos from youtube/might_need_trimming/Maine Royaan _ Official Music Video _ Piran Khan Ft. Tanveer Evan.m4a
+1045:Selection/liked videos from youtube/might_need_trimming/Mersal - Neethanae Tamil Lyric Video _ Vijay, Samantha _ A R Rahman _ Atlee.m4a
+1046:Selection/liked videos from youtube/might_need_trimming/Metal Guitar Stuff - Challenges (Extended Edition).m4a
+1047:Selection/liked videos from youtube/might_need_trimming/Original Song - CHALLENGES [ Metal, Metalcore] _ TABS.m4a
+1048:Selection/liked videos from youtube/might_need_trimming/Original Song - The Uprising [Metal, Djent, Melodeath, Metalcore].m4a
+1049:Selection/liked videos from youtube/might_need_trimming/Ottoman Turkish War Song Mehter 2.m4a
+1050:Selection/liked videos from youtube/might_need_trimming/Ottoman Turkish War Song Mehter.m4a
+1051:Selection/liked videos from youtube/might_need_trimming/Passenger _ Let Her Go (Official Video).m4a
+1052:Selection/liked videos from youtube/might_need_trimming/Resurrection Ertugrul  Theme Song (With Translation)- The Rise of Nation _ نهضة أمة.m4a
+1053:Selection/liked videos from youtube/might_need_trimming/Rocky Balboa - Theme Song (HD).m4a
+1054:Selection/liked videos from youtube/might_need_trimming/Rocky theme song.m4a
+1055:Selection/liked videos from youtube/might_need_trimming/SUICIDE SILENCE - You Only Live Once (OFFICIAL VIDEO).m4a
+1056:Selection/liked videos from youtube/might_need_trimming/Superunknown - Lost In A Maze (Official Lyric Video).m4a
+1057:Selection/liked videos from youtube/might_need_trimming/System Of A Down - Chop Suey! (Official Video).m4a
+1058:Selection/liked videos from youtube/might_need_trimming/Taarif Karoon _ Sanam.m4a
+1059:Selection/liked videos from youtube/might_need_trimming/Taray Taray - James । Shundori Toma Amar - James । With lyrics.m4a
+1060:Selection/liked videos from youtube/might_need_trimming/Tere Bin Lyrical - Bas Ek Pal _ Atif Aslam, Mithoon _ Urmila, Juhi Chawla, Jimmy Shergill & Sanjay.m4a
+1061:Selection/liked videos from youtube/might_need_trimming/The Script - Superheroes (Official Video).m4a
+1062:Selection/liked videos from youtube/might_need_trimming/Theerame 4K Video Song _ Malik _ Mahesh Narayanan _ Sushin Shyam _ Anwar Ali _ K S Chithra _ Sooraj.m4a
+1063:Selection/liked videos from youtube/might_need_trimming/Tomake  _ তোমাকে _ Artcell _ Oniket Prantor _ Original Track _ @G Series World Music.m4a
+1064:Selection/liked videos from youtube/might_need_trimming/Tomar Moner Bhetor _ Vinci Da _ Noble _ Rudranil _ Sohini _ Ritwick _ Anupam _ Srijit Mukherji _ SVF.m4a
+1065:Selection/liked videos from youtube/might_need_trimming/Toss A Coin To Your Witcher (Lyrics _ Lyric Video) [Jaskier Song].m4a
+1066:Selection/liked videos from youtube/might_need_trimming/Tum Kyu chale Aate ho _ kya mujhe pyar hai _ New song.m4a
+1067:Selection/liked videos from youtube/might_need_trimming/Tune Jo Na Kaha Song _ New York _ John Abraham, Katrina Kaif, Neil Nitin M _ Mohit Chauhan _ Pritam.m4a
+1068:Selection/liked videos from youtube/might_need_trimming/UNLIMITS -  ハロー (Message ver.).m4a
+1069:Selection/liked videos from youtube/might_need_trimming/UNLIMITS - Hello ハロー.m4a
+1070:Selection/liked videos from youtube/might_need_trimming/UNLIMITS - Hero.m4a
+1071:Selection/liked videos from youtube/might_need_trimming/Ye Jo Halka Halka Saroor Hai - Ustad Nusrat Fateh Ali Khan - OSA Official HD Video.m4a
+1072:Selection/liked videos from youtube/might_need_trimming/মেয়ে তুমি কি দুঃখ চেনো _ Meye _ Ayub Bachchu _ Lyrics.m4a
+1073:Selection/liked videos from youtube/might_need_trimming/周杰倫 Jay Chou【聽見下雨的聲音 Rhythm of the Rain】Official MV.m4a
+1074:Selection/liked videos from youtube/might_need_trimming/胡夏 Xia Hu - Those Bygone Years 那些年.m4a
 playlist_end

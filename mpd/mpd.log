@@ -22750,3 +22750,458 @@ Aug 06 11:36 : exception: Failed to access /home/venerable_white/Music/Anime op 
 Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
 Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
 Aug 06 12:53 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 13 12:31 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 13 12:31 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 13 12:31 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 20 00:56 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 20 00:56 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 20 00:56 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 20 09:05 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 20 09:05 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 20 09:05 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 20 23:20 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 20 23:20 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 20 23:20 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 25 12:19 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Aug 25 12:19 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Aug 25 12:19 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Aug 25 12:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:24 : player: played "Selection/liked videos from youtube/Himekami (姫神) - Sennen No Inori.m4a"
+Aug 25 12:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:29 : player: played "Selection/Anime op & ed/Galneryus - A Far-off Distance (sub. español).m4a"
+Aug 25 12:31 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:32 : player: played "Selection/liked videos from youtube/「君のいる町」オープニングテーマ　みみめめMIMI「センチメンタルラブ」.m4a"
+Aug 25 12:38 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:38 : player: played "Selection/liked videos from youtube/Bhool Bhulaiya - Ami je tomar.m4a"
+Aug 25 12:40 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:40 : player: played "Selection/liked videos from youtube/Nurarihyon no Mago OST - Yōen naru.m4a"
+Aug 25 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:46 : player: played "Selection/liked videos from youtube/Mitwa Full Video - KANK_Shahrukh Khan,Rani Mukherjee_Shafqat Amanat Ali_Shankar Mahadevan.m4a"
+Aug 25 12:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:51 : player: played "Selection/liked videos from youtube/打上花火 -Arrange ver.-cover【まふまふ】.m4a"
+Aug 25 12:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:55 : player: played "Selection/Anime op & ed/[FULL] Mahouka Koukou no Rettousei ED 2 『Mirror』 Romaji _ English.m4a"
+Aug 25 12:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 25 12:58 : player: played "Selection/liked videos from youtube/【Nightcore】醉沙场 (CH)《全职高手》漫画叶修角色曲【CC字幕】.m4a"
+Aug 26 00:26 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Aug 26 10:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 26 13:20 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Aug 31 21:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 31 21:21 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Aug 31 21:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 31 22:44 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Aug 31 22:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 31 23:23 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Aug 31 23:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 31 23:52 : player: played "Selection/liked videos from youtube/After School (애프터 스쿨) - Because Of You (너 때문에) ~Audio~.m4a"
+Sep 01 10:47 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 11:15 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 11:15 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 11:15 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 01 11:15 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 11:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 11:19 : player: played "Selection/liked videos from youtube/Taalpatar Shepai - Ami sudhu khujechi amay _ Official Music Video _ Bengali Song.m4a"
+Sep 01 11:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 11:20 : player: played "Selection/Anime op & ed/Gudam Build Fighters Try OP1 「セルリアン」.m4a"
+Sep 01 11:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 01 13:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 13:14 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 01 13:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:19 : player: played "Selection/Anime op & ed/Kemono Jihen ED_Ending full - -Shirushi- by Sayaka Sasaki.m4a"
+Sep 01 13:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:24 : player: played "Selection/liked videos from youtube/Guru (Tamil) - Aaruyirae Video _ A.R. Rahman.m4a"
+Sep 01 13:28 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:28 : player: played "Selection/Anime op & ed/【狐妖小红娘】OP1完整版mv《爱You Ready 爱我Ready》.m4a"
+Sep 01 13:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:32 : player: played "Selection/liked videos from youtube/SPYAIR - My Friend.m4a"
+Sep 01 13:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:37 : player: played "Selection/Anime op & ed/might need trimming/Guilty Crown - βίος _ Bios.m4a"
+Sep 01 13:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:42 : player: played "Selection/liked videos from youtube/Mersal - Aalaporaan Thamizhan Tamil Lyric Video _ Vijay _ A R Rahman _ Atlee.m4a"
+Sep 01 13:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:47 : player: played "Selection/liked videos from youtube/Taalpatar Shepai _ O doyal bichar koro _ Akhil Bandhu Ghosh _ From the Streets of Kolkata #2.m4a"
+Sep 01 13:48 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:48 : player: played "Selection/Anime op & ed/Ushinawareta Mirai o Motomete (TV) OP.m4a"
+Sep 01 13:52 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:53 : player: played "Selection/liked videos from youtube/Shopnoghum - Bay of Bengal (Official Video).m4a"
+Sep 01 13:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 13:57 : player: played "Selection/liked videos from youtube/Hokkaido 《北海道之小樽日记》.m4a"
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 01 19:00 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 19:00 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 01 19:01 : player: played "Selection/Anime op & ed/Eden-Aqua Timez-full.m4a"
+Sep 01 19:01 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 01 19:01 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 01 19:01 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 10 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:08 : update: added Selection/liked videos from youtube/might_need_trimming/Diriliş - Ertuğrul Gazi   _ PLEVNE MARŞI .m4a
+Sep 10 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:08 : update: added Selection/liked videos from youtube/might_need_trimming/Resurrection Ertugrul  Theme Song (With Translation)- The Rise of Nation _ نهضة أمة.m4a
+Sep 10 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:08 : update: added Selection/liked videos from youtube/might_need_trimming/Ottoman Turkish War Song Mehter.m4a
+Sep 10 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:08 : update: added Selection/liked videos from youtube/might_need_trimming/Ottoman Turkish War Song Mehter 2.m4a
+Sep 10 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:08 : update: added Selection/liked videos from youtube/might_need_trimming/I Prevail - Scars (Official Music Video).m4a
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 10 19:08 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 10 19:10 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:15 : player: played "Selection/liked videos from youtube/might_need_trimming/UNLIMITS -  ハロー (Message ver.).m4a"
+Sep 10 19:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:19 : player: played "Selection/liked videos from youtube/The Legend of White Snake《Millennial Wait》OST Lyrics.m4a"
+Sep 10 19:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:23 : player: played "Selection/Anime op & ed/Gintama ED09 - Possibility - Sanagi FULL HQ.m4a"
+Sep 10 19:27 : player: played "Selection/liked videos from youtube/Warfaze Purnota with lyrics.m4a"
+Sep 10 19:28 : exception: Not playing
+Sep 10 19:28 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:28 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:35 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:35 : player: played "Selection/liked videos from youtube/Coke Studio Season 9_ Afreen Afreen_ Rahat Fateh Ali Khan & Momina Mustehsan.m4a"
+Sep 10 19:40 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:40 : player: played "Selection/Anime op & ed/Galneryus - A Far-off Distance (sub. español).m4a"
+Sep 10 19:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:42 : player: played "Selection/Anime op & ed/Kekkaishi Opening.m4a"
+Sep 10 19:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:45 : player: played "Selection/liked videos from youtube/LUDO - Hardum Humdum FULL VIDEO _ Abhishek B, Aditya K, Rajkummar R, Sanya M, Fatima _ Arijit, Pritam.m4a"
+Sep 10 19:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 19:46 : player: played "Selection/liked videos from youtube/LUDO - Hardum Humdum FULL VIDEO _ Abhishek B, Aditya K, Rajkummar R, Sanya M, Fatima _ Arijit, Pritam.m4a"
+Sep 10 19:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:08 : player: played "Selection/liked videos from youtube/96 Songs _ The Life of Ram Song Lyrical _ Vijay Sethupathi, Trisha _ Govind Vasantha _ C. Prem Kumar.m4a"
+Sep 10 20:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:15 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:15 : player: played "Selection/liked videos from youtube/96 Songs _ The Life of Ram Song Lyrical _ Vijay Sethupathi, Trisha _ Govind Vasantha _ C. Prem Kumar.m4a"
+Sep 10 20:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:18 : player: played "Selection/liked videos from youtube/Saga - Заполонила Lyrics.m4a"
+Sep 10 20:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:23 : player: played "Selection/Anime op & ed/Senryuu Shoujo Full ED -「ORDINARY LOVE」by Rikako Aida.m4a"
+Sep 10 20:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:25 : player: played "Selection/liked videos from youtube/Feluda Theme _ Titan Ad (Mozart's Symphony no 25) _ Shuffle Beat - Harmonica - Gourab Das (gourabex).m4a"
+Sep 10 20:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:30 : player: played "Selection/Anime op & ed/Home Made Kazoku - Shooting Star.m4a"
+Sep 10 20:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:34 : player: played "Selection/liked videos from youtube/The Midnight - Lost Boy.m4a"
+Sep 10 20:38 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:38 : player: played "Selection/Anime op & ed/might need trimming/UNLIMITS- リリー(OFFICIAL VIDEO).m4a"
+Sep 10 20:38 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:42 : player: played "Selection/liked videos from youtube/KDrew - Yesterday.m4a"
+Sep 10 20:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:46 : player: played "Selection/liked videos from youtube/The Greatest Showman Cast - Rewrite The Stars (Official Audio).m4a"
+Sep 10 20:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:49 : player: played "Selection/Anime op & ed/スパークル [original ver.] -Your name. Music Video edition- 予告編 from new album「人間開花」初回盤DVD.m4a"
+Sep 10 20:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:53 : player: played "Selection/Anime op & ed/The Promised Neverland Season 2 - Ending Full『Mahou』by Myuk.m4a"
+Sep 10 20:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 20:58 : player: played "Selection/liked videos from youtube/Amar Bhindeshi Tara - Chondrobindu (Lyrics).m4a"
+Sep 10 21:03 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:03 : player: played "Selection/liked videos from youtube/Jabi Kothay Chere Bol _ Baundule _ Riju _ New Bengali Song 2019 _ যাবি কোথায় ছেড়ে বল.m4a"
+Sep 10 21:07 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:07 : player: played "Selection/liked videos from youtube/G-DRAGON - 삐딱하게(CROOKED) M_V.m4a"
+Sep 10 21:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:11 : player: played "Selection/liked videos from youtube/The Greatest Showman - A Million Dreams (Lyric Video) HD.m4a"
+Sep 10 21:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:34 : player: played "Selection/liked videos from youtube/Tum Mile Full Video - Title Track_Emraan Hashmi,Soha Ali_Pritam_Neeraj Shridhar_Kumaar.m4a"
+Sep 10 21:38 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:38 : player: played "Selection/Anime op & ed/Ghost in a Flower - Yorushika_cover Kano (鹿乃).m4a"
+Sep 10 21:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:42 : player: played "Selection/Anime op & ed/Tonikaku Kawaii Opening Song Full『Koi no Uta』by Yunomi.m4a"
+Sep 10 21:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 10 21:46 : player: played "Selection/liked videos from youtube/Renai Circulation「恋愛サーキュレーション」歌ってみた【＊なみりん】.m4a"
+Sep 10 21:48 : player: played "Selection/liked videos from youtube/Aj pasha will rock you Backstage cover #28.m4a"
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 13 11:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 13 11:55 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 13 11:56 : player: played "Selection/liked videos from youtube/Saibo - MTV Unplugged (Full Song) - Sachin Jigar.m4a"
+Sep 13 11:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 11:59 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 11:59 : player: played "Selection/liked videos from youtube/Kabali Songs _ Neruppu Da Song with Lyrics _ Rajinikanth _ Pa Ranjith _ Santhosh Narayanan.m4a"
+Sep 13 12:04 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:04 : player: played "Selection/liked videos from youtube/Saibo - MTV Unplugged (Full Song) - Sachin Jigar.m4a"
+Sep 13 12:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:08 : player: played "Selection/Anime op & ed/平行線 - Eve × suis from ヨルシカ MV.m4a"
+Sep 13 12:10 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:10 : player: played "Selection/Anime op & ed/ぼくのりりっくのぼうよみ - 「朝焼けと熱帯魚」ミュージックビデオ.m4a"
+Sep 13 12:14 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:15 : player: played "Selection/liked videos from youtube/Seven Nation Army (Glitch Mob Remix) - Lyric Video.m4a"
+Sep 13 12:15 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:16 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:16 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:16 : player: played "Selection/Anime op & ed/Hitori No Shita - The Outcast Opening_ OP [HD].m4a"
+Sep 13 12:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:21 : player: played "Selection/liked videos from youtube/千年の祈 治愈完整版 千年的祈祷丨姬神 Himekami  哈妮克孜舞蹈演绎 完整曲子.m4a"
+Sep 13 12:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:26 : player: played "Selection/liked videos from youtube/might_need_trimming/Asim Azhar - Jo Tu Na Mila.m4a"
+Sep 13 12:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:34 : player: played "Selection/liked videos from youtube/might_need_trimming/Darshan Raval - Tera Zikr _ SoundBound _ Tor Kotha.m4a"
+Sep 13 12:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:43 : player: played "Selection/liked videos from youtube/Iktara Unplugged - Amit Trivedi - MTV Unplugged.m4a"
+Sep 13 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:47 : player: played "Selection/liked videos from youtube/Raabta (Kehte Hain Khuda) Full Song With Lyrics _ Agent Vinod _ Saif Ali Khan, Kareena Kapoor.m4a"
+Sep 13 12:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 12:51 : player: played "Selection/Anime op & ed/美波「カワキヲアメク」MV.m4a"
+Sep 13 12:54 : player: played "Selection/liked videos from youtube/পানাম নগরী। লোকশিল্প জাদুঘর। সোনারগাঁ। একদিনের ট্যুর।.m4a"
+Sep 13 13:34 : exception: Not playing
+Sep 13 13:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:37 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:37 : player: played "Selection/Anime op & ed/D.Gray-man Hallow Opening 'Key -bring it on, my Destiny-' - Extended(Sound only).m4a"
+Sep 13 13:41 : player: played "Selection/liked videos from youtube/After School - Because of You MV (HD).m4a"
+Sep 13 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:45 : player: played "Selection/liked videos from youtube/Aha Ki Anondo Akashe Batashe _ Satyajit Ray Medley _Taalpatar Shepai .m4a"
+Sep 13 13:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:50 : player: played "Selection/liked videos from youtube/Meesaya Murukku Songs _ Vaadi Pulla Vaadi Video Song _ Hiphop Tamizha, Aathmika, Vivek.m4a"
+Sep 13 13:55 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:55 : player: played "Selection/liked videos from youtube/The Midnight - The Comeback Kid [Music Video].m4a"
+Sep 13 13:59 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 13:59 : player: played "Selection/Anime op & ed/Kaguya-sama wa Kokurasetai ED Full -「Sentimental Crisis」by halca.m4a"
+Sep 13 14:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 14:06 : player: played "Selection/liked videos from youtube/Boshe achi - Warfaze with bangla lyrics.m4a"
+Sep 13 14:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 14:11 : player: played "Selection/liked videos from youtube/Durey Durey- Vibe.m4a"
+Sep 13 14:16 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 14:17 : player: played "Selection/Anime op & ed/Rookiez is Punk'd - Drop (Lyrics).m4a"
+Sep 13 14:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 14:21 : player: played "Selection/Anime op & ed/My Hero Academia Season 5 - Ending Full『Footprints』by the peggies.m4a"
+Sep 13 14:23 : player: played "Selection/Anime op & ed/RUANN「I AM STANDING」MV - アニメ「３月のライオン」ver..m4a"
+Sep 13 18:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:23 : player: played "Selection/Anime op & ed/Aimer - Koi Wazurai『Sun Dance』.m4a"
+Sep 13 18:29 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:29 : player: played "Selection/liked videos from youtube/Coke Studio Season 10 - Muntazir - Danyal Zafar & Momina Mustehsan.m4a"
+Sep 13 18:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:32 : player: played "Selection/liked videos from youtube/[도깨비 OST Part 1] 찬열, 펀치 (CHANYEOL, PUNCH) - Stay With Me MV.m4a"
+Sep 13 18:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:36 : player: played "Selection/Anime op & ed/Darling in the FranXX OP_Opening Full「KISS OF DEATH - Mika Nakashima x Hyde」.m4a"
+Sep 13 18:42 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:42 : player: played "Selection/Anime op & ed/Kokia →「 Hontou no oto 」.m4a"
+Sep 13 18:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:46 : player: played "Selection/liked videos from youtube/Panic! At The Disco - High Hopes (Official Video).m4a"
+Sep 13 18:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:51 : player: played "Selection/liked videos from youtube/Nitai Chander Bazare (নিতাই চান্দের বাজারে)_ Bangla Folk Song_ Animes Roy_ Coverd.m4a"
+Sep 13 18:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:54 : player: played "Selection/Anime op & ed/Fox Spirit Matchmaker OP 3 Full.m4a"
+Sep 13 18:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 18:58 : player: played "Selection/liked videos from youtube/Rammstein - Ich Will (Official Video).m4a"
+Sep 13 19:01 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:02 : player: played "Selection/Anime op & ed/Survive Said The Prophet - MUKANJYO _ Official Music Video.m4a"
+Sep 13 19:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:06 : player: played "Selection/liked videos from youtube/Popeye ( Bangladesh) _ Neshar Bojha.m4a"
+Sep 13 19:10 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:11 : player: played "Selection/liked videos from youtube/might_need_trimming/Passenger _ Let Her Go (Official Video).m4a"
+Sep 13 19:13 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:18 : player: played "Selection/liked videos from youtube/Warfaze- Moharaj ( Mizan on vocals ).m4a"
+Sep 13 19:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:22 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:23 : player: played "Selection/Anime op & ed/Demon Slayer - Kimetsu no Yaiba Opening Full『LiSA - Gurenge』【ENG Sub】.m4a"
+Sep 13 19:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:28 : player: played "Selection/Anime op & ed/一首好聽的日語歌《Bitter Sweet》傳田真央【中日歌詞Lyrics】.m4a"
+Sep 13 19:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 19:34 : player: played "Selection/liked videos from youtube/Maruvaarthai - Lyric Video _ Enai Noki Paayum Thota _ Dhanush _ Darbuka Siva _ Gautham Menon.m4a"
+Sep 13 20:05 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:05 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:09 : player: played "Selection/Anime op & ed/ラックライフ _ 名前を呼ぶよ [Music Video]（TVアニメ『文豪ストレイドッグス』ED主題歌）.m4a"
+Sep 13 20:16 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:17 : player: played "Selection/liked videos from youtube/KALANKANI RADHA .....POTA.m4a"
+Sep 13 20:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:21 : player: played "Selection/Anime op & ed/The Irregular at Magic Highschool full opening.m4a"
+Sep 13 20:24 : player: played "Selection/Anime op & ed/Mob Psycho 100 Season 2 - Ending Full『Gray』by sajou no hana.m4a"
+Sep 13 20:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:45 : player: played "Selection/liked videos from youtube/GhorGari _ ঘোরগাড়ী _ By Highway _ ভবের গান _ Lyrical Video.m4a"
+Sep 13 20:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:50 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 20:57 : player: played "Selection/Anime op & ed/Tokyo Ghoul - On my Own [ Lyrics - 東京喰種 -トーキョーグール-].m4a"
+Sep 13 21:00 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:01 : player: played "Selection/liked videos from youtube/►Mahoutsukai no Yome 「 AMV 」- Beautiful Creatures♫.m4a"
+Sep 13 21:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:18 : player: played "Selection/liked videos from youtube/milet「inside you」MUSIC VIDEO（先行配信中！竹内結子主演・フジテレビ系ドラマ『スキャンダル専門弁護士 QUEEN』OPテーマ）.m4a"
+Sep 13 21:22 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:22 : player: played "Selection/liked videos from youtube/Non-StopVersion純歌曲版!【THAI CHA CHA เพลงไทย ชะช่า 泰國恰恰】Namewee 黃明志 ft.BieTheSka โดยเนมวี & บี้ เดอะสกา.m4a"
+Sep 13 21:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:27 : player: played "Selection/liked videos from youtube/Bring Me The Horizon - Doomed (New Song).m4a"
+Sep 13 21:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:32 : player: played "Selection/Anime op & ed/Eureka Seven 秘密基地'Himitsu Kichi' (Full Version)- HQ Audio.m4a"
+Sep 13 21:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:34 : player: played "Selection/liked videos from youtube/Sora Yori Mo Tooi Basho OST - Insert Song - Haru ka Tooku.m4a"
+Sep 13 21:38 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:38 : player: played "Selection/Anime op & ed/Gundam Buld Fighter Try Full OP 1 (BACK-ON Cerulean).m4a"
+Sep 13 21:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:45 : player: played "Selection/liked videos from youtube/Chinese Animes「AMV」- Feel Invincible.m4a"
+Sep 13 21:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 21:49 : player: played "Selection/Anime op & ed/众生 - Fox Spirit Matchmaker OP 6 Full【狐妖小红娘 南国篇】.m4a"
+Sep 13 23:01 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:01 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:01 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:05 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:05 : player: played "Selection/liked videos from youtube/might_need_trimming/UNLIMITS - Hello ハロー.m4a"
+Sep 13 23:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:09 : player: played "Selection/liked videos from youtube/TAEYANG - RINGA LINGA(링가 링가) M_V.m4a"
+Sep 13 23:13 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:13 : player: played "Selection/liked videos from youtube/● A Little Sweet ● Silence Wang ft. BY2 (Chi_Pinyin_Eng).m4a"
+Sep 13 23:17 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:17 : player: played "Selection/Anime op & ed/BLEACH 死神 OP 06 AQUA TIMEZ - ALONES (繁中日文字幕).m4a"
+Sep 13 23:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:20 : player: played "Selection/liked videos from youtube/《斗罗大陆》超燃主题曲来袭，此生不悔入唐门！.m4a"
+Sep 13 23:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 13 23:24 : player: played "Selection/liked videos from youtube/'Sooraj Dooba Hain' FULL VIDEO SONG _ Arijit singh Aditi Singh Sharma _ T-SERIES.m4a"
+Sep 13 23:26 : player: played "Selection/Anime op & ed/Rakshasa Street Opening full『Nanzheng North War - Don't Want to Look Back』.m4a"
+Sep 14 00:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:27 : player: played "Selection/liked videos from youtube/kaho na kaho ye ankhen bolte hai by sunny lashari.m4a"
+Sep 14 00:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:33 : player: played "Selection/Anime op & ed/Screaming against the XXXXXXX.m4a"
+Sep 14 00:40 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:40 : player: played "Selection/liked videos from youtube/Bondhu Chol Lyrical _ Open Tee Bioscope _ Anupam Roy _ Shantanu Moitra _ Anindya.m4a"
+Sep 14 00:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:44 : player: played "Selection/liked videos from youtube/Bring Me The Horizon - Drown.m4a"
+Sep 14 00:49 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:49 : player: played "Selection/liked videos from youtube/打上花火 -Arrange ver.-cover【まふまふ】.m4a"
+Sep 14 00:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:53 : player: played "Selection/Anime op & ed/Jujutsu Kaisen - Opening Full『Kaikai Kitan』by Eve.m4a"
+Sep 14 00:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:54 : player: played "Selection/Anime op & ed/Inuyasha Opening 1 - Change the World.m4a"
+Sep 14 00:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 00:58 : player: played "Selection/liked videos from youtube/Vaseegara - Zara Zara _ Masha Islam (Cover).m4a"
+Sep 14 11:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:27 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:31 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 11:32 : player: played "Selection/liked videos from youtube/Jay-Jaykara _ Baahubali 2 The Conclusion _ Anushka Shetty & Prabhas _ Kailash K _ M.M.Kreem _ Manoj.m4a"
+Sep 14 11:35 : player: played "Selection/liked videos from youtube/MV _ Jack Stauber - Buttercup.m4a"
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:51 : player: played "Selection/liked videos from youtube/might_need_trimming/Rocky theme song.m4a"
+Sep 14 12:56 : player: played "Selection/liked videos from youtube/【Ayasa】告白の夜 (The reason why) 〜Ayasa Theater episode 7  'Ayasa ORIGINAL MUSIC'.m4a"
+Sep 14 12:59 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 12:59 : player: played "Selection/Anime op & ed/Horimiya Opening Theme OP Iro Kousui Edit version [English Sub].m4a"
+Sep 14 13:01 : player: played "Selection/liked videos from youtube/Warfaze-Oshamajik.m4a"
+Sep 14 17:43 : exception: Not playing
+Sep 14 17:43 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 14 17:43 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 14 17:43 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory
+Sep 14 17:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:48 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:48 : player: played "Selection/Anime op & ed/March comes in like a lion Ending 2 Full『Kenshi Yonezu - orion』.m4a"
+Sep 14 17:48 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:52 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:52 : player: played "Selection/Anime op & ed/Evil Messenger - Rookiez is punk'd.m4a"
+Sep 14 17:52 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:56 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 17:56 : player: played "Selection/Anime op & ed/The Warrior From Qin _ Rap Opening Song _ Join to Watch the Latest Episodes.m4a"
+Sep 14 18:04 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:04 : player: played "Selection/Anime op & ed/Full Metal Alchemist Brotherhood  - All ending songs with sub and lyrics.m4a"
+Sep 14 18:08 : player: played "Selection/Anime op & ed/Re -Zero Season 2 EP 23 Insert Song - Ram's Theme『Rie Murakawa - What you don't know』.m4a"
+Sep 14 18:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:18 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:23 : player: played "Selection/liked videos from youtube/When Chai Met Toast - Break Free (Lyrics).m4a"
+Sep 14 18:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:27 : player: played "Selection/liked videos from youtube/落空 - 洛萱  一首超燃的歌曲♫ 瞬間提神【超酷特效_歌詞Lyrics_高音質】【流行歌曲_Best Chinese Songs】Luo Kong.m4a"
+Sep 14 18:30 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:30 : player: played "Selection/liked videos from youtube/Red Velvet 레드벨벳 'Psycho' MV.m4a"
+Sep 14 18:34 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:35 : player: played "Selection/Anime op & ed/Bleach opening 9 full_ Aqua timez-Velonica.m4a"
+Sep 14 18:36 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:36 : player: played "Selection/Anime op & ed/Stars Align – Ending Theme – Kago no Naka no Bokura wa.m4a"
+Sep 14 18:41 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:41 : player: played "Selection/Anime op & ed/Eir Aoi - MEMORIA -after days ver.-.m4a"
+Sep 14 18:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:46 : player: played "Selection/liked videos from youtube/呦猫uneko献唱！狐妖小红娘竹业篇插曲《人间白首》.m4a"
+Sep 14 18:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 18:51 : player: played "Selection/Anime op & ed/Tokyo Ghoul - Glassy Sky [東京喰種 -トーキョーグール-].m4a"
+Sep 14 18:55 : player: played "Selection/liked videos from youtube/might_need_trimming/Resurrection Ertugrul  Theme Song (With Translation)- The Rise of Nation _ نهضة أمة.m4a"
+Sep 14 19:00 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:00 : player: played "Selection/liked videos from youtube/Himekami (姫神) - Sennen No Inori.m4a"
+Sep 14 19:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:06 : player: played "Selection/liked videos from youtube/Maula Mere Maula _ Lyrical _ Anwar _ Roop Kumar Rathod _ Mithoon.m4a"
+Sep 14 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:13 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:13 : player: played "Selection/Anime op & ed/【HD】Ref：rain／眩いばかり - Aimer - After Rain –Scarlet ver.-【中日字幕】.m4a"
+Sep 14 19:19 : player: played "Selection/Anime op & ed/Galileo Galilei - Aoi Shiori.m4a"
+Sep 14 19:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:19 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:23 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:24 : player: played "Selection/liked videos from youtube/Attic - Echoes In Your Attic (Music Video).m4a"
+Sep 14 19:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 14 19:27 : player: played "Selection/liked videos from youtube/Fox Spirit Matchmaker Season 6  Insert Song 2「围城」full ver.m4a"
+Sep 17 15:45 : exception: Failed to access /home/venerable_white/Music/Rammstein: No such file or directory
+Sep 17 15:45 : exception: Failed to access /home/venerable_white/Music/liked videos from youtube: No such file or directory
+Sep 17 15:45 : exception: Failed to access /home/venerable_white/Music/Anime op & ed: No such file or directory

@@ -118,7 +118,7 @@ killswitch medicine &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
 anime-notification-browser &
-xfce4-power-manager &
+#xfce4-power-manager &
 telegram-desktop &
 wallpaper-change-auto &
 #discord &
