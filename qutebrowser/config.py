@@ -35,7 +35,7 @@ c.aliases = {'w': 'session-save',
              'wqa': 'quit --save',
              'ge': 'open -t https://wiki.archlinux.org/index.php/Forum_Etiquette',
              'gp': 'open -t http://127.0.0.1:4000'}
-c.url.default_page = 'file:///home/venerable_white/startpage-browser/index.html'
+c.url.default_page = 'file:///home/venerable_white/.config/startpage-browser/index.html'
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
                        'aw': 'https://wiki.archlinux.org/?search={}',
                        'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
@@ -44,7 +44,7 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
                        'gh': 'https://github.com/search?q={}&type=Code',
                        'ap': 'https://www.archlinux.org/packages/?sort=&q={}',
                        'ny': 'https://nyaa.si/?f=0&c=0_0&q={}&s=seeders&o=desc'}
-c.url.start_pages = ['file:///home/venerable_white/startpage-browser/index.html']
+c.url.start_pages = ['file:///home/venerable_white/.config/startpage-browser/index.html']
 c.new_instance_open_target = 'tab-bg'
 c.session.lazy_restore = False
 c.content.autoplay = False
