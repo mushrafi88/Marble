@@ -30,19 +30,19 @@ My customization of arch linux .I have decided to name it **Marble**
 | **Lockscreen**           | Betterlockscreen                                                                                                       |
 
 
-[detailed applists](https://gitlab.com/mushrafi88/installed_app_list/-/blob/master/App_list.ipynb)
+[detailed applists and a proper guide to setup the environment ](Marble/README.md)
 
 # Screenshots
-![](Screenshots/1.png)
+![](Marble/Screenshots/1.png)
 
 
-![](Screenshots/2.png)
+![](Marble/Screenshots/2.png)
 
-![](Screenshots/3.png)
+![](Marble/Screenshots/3.png)
 
-![](Screenshots/4.png)
+![](Marble/Screenshots/4.png)
 
-![](Screenshots/6.png)
+![](Marble/Screenshots/6.png)
 
 # Some extra apps
 **[Rofi book opener](https://gitlab.com/mushrafi88/rofi-book-manager)**
