@@ -1,6 +1,0 @@
-#!/bin/bash
-
-BNESS="$(light -G)"
-LIGHT=${BNESS%.*}
-
-echo "$LIGHT"

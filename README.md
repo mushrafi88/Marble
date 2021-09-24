@@ -17,10 +17,10 @@ My customization of arch linux .I have decided to name it **Marble**
 | **GTK Themer**           | lxappearance                                                                                      |
 | **Apps Launcher**        | [Rofi](https://github.com/davatorium/rofi)                                                                             |
 | **Panel**                | Polybar                                                                             |
-| **Text Editor**          | Neovim, Sublime-text & Nano                                                                                                      |
+| **Text Editor**          | Neovim                                                                                                    |
 | **File Manager**		   | Ranger, Pcmanfm                                                                                                             |
 | **Sound Mixer**          | Pipewire                                                                                                             |
-| **Brightness Control**   | acpilight                                                          |
+| **Brightness Control**   | light                                                          |
 | **Network Manager**      | Networkmanager,Networkmanager-dmenu                                                   |
 | **Image Viewer**         | Mirage                                                                 |               |
 | **Screenshot App**       | Flameshot                                                    |
