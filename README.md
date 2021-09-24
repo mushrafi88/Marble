@@ -30,7 +30,7 @@ I have decided to name it **Marble**
 | **Lockscreen**           | Betterlockscreen                                                                                                       |
 
 
-[detailed applists and a proper guide to setup the environment ](#marble)
+# [Detailed applists and a proper guide to setup the environment ](#marble)
 
 # Screenshots
 
