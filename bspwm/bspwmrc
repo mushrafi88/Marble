@@ -21,7 +21,7 @@ else
     bspc monitor HDMI-1 -d V VI VII VIII IX
 fi
 
-
+xhost +
 
 bspc config border_width 1
 bspc config window_gap 12
@@ -63,6 +63,7 @@ bspc rule -a Kite desktop='^2' split_ratio=0.80
 bspc rule -a TelegramDesktop desktop='^8' follow=off focus=off
 bspc rule -a discord desktop='^8' follow=off focus=off
 bspc rule -a "Spotify Free" desktop='^7' follow=on focus=off
+bspc rule -a kitty:book_finder state=floating
 
 
 ## Autostart -------------------------------#

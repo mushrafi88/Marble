@@ -1,4 +1,9 @@
+/** Basic config file **/
+
 configuration {
-	theme: "~/.config/rofi/custom-themes/merah.rasi";
+  show-icons:         true;
+  icon-theme:         "Papirus";
 }
-@import "~/.config/rofi/custom-themes/merah.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
