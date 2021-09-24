@@ -30,7 +30,7 @@ My customization of arch linux .I have decided to name it **Marble**
 | **Lockscreen**           | Betterlockscreen                                                                                                       |
 
 
-[detailed applists and a proper guide to setup the environment ]([Marble/README.md##Marble)
+[detailed applists and a proper guide to setup the environment ]([Marble/README.md## Marble)
 
 # Screenshots
 ![](Marble/Screenshots/1.png)
