@@ -30,7 +30,7 @@ My customization of arch linux .I have decided to name it **Marble**
 | **Lockscreen**           | Betterlockscreen                                                                                                       |
 
 
-[detailed applists and a proper guide to setup the environment ](Marble/README.md)
+[detailed applists and a proper guide to setup the environment ](Marble/README.md)(## Marble)
 
 # Screenshots
 ![](Marble/Screenshots/1.png)
@@ -43,14 +43,6 @@ My customization of arch linux .I have decided to name it **Marble**
 ![](Marble/Screenshots/4.png)
 
 ![](Marble/Screenshots/6.png)
-
-# Some extra apps
-**[Rofi book opener](https://gitlab.com/mushrafi88/rofi-book-manager)**
-![book](Screenshots/book.gif)
-**[Rofi bookmark manager](https://gitlab.com/mushrafi88/rofi-bookmark-manager)**
-![bookmark](Screenshots/bookmark.gif)
-**[Rofi-youtube2mpv](https://gitlab.com/mushrafi88/rofi-youtube-searcher)**
-![youtube](Screenshots/youtube.gif)
 
 ### Commonly used keybindings :
 
