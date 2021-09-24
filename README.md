@@ -172,8 +172,13 @@ yay -S --needed bspwm rofi-git picom-git polybar-git sxhkd feh ksuperkey ranger 
 ```
 
 ```
-git clone https://gitlab.com/mushrafi88/marble.git
-cp -r -u -v ~/marble/. ~/.config/
+git clone https://gitlab.com/mushrafi88/dotfiles.git
+cd ..
+git clone https://gitlab.com/mushrafi88/bin.git
+cd ..
+cp -r -u -v dotfiles/. ~/.config/
+cp -r -u -v bin ~/.config/
+chmod +x ~/.config/bin/*
 chmod +x ~/bspwm/bspwmrc
 touch ~/.config/mpd/{mpd.db,mpd.log,mpd.pid/}
 ```
