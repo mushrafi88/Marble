@@ -76,7 +76,7 @@ XF86Audio{RaiseVolume,LowerVolume,Mute}
 	
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
+	sh ~/.config/bin/{song_next,song_prev,song_toggle,song_stop}
 ctrl + alt + i
     mpc volume +5
 ctrl + alt + o
