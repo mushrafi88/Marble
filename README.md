@@ -172,15 +172,13 @@ yay -S --needed bspwm rofi-git picom-git polybar-git sxhkd feh ksuperkey ranger 
 ```
 
 ```
-git clone https://gitlab.com/mushrafi88/dotfiles.git
-cd ..
-git clone https://gitlab.com/mushrafi88/bin.git
-cd ..
-cp -r -u -v dotfiles/. ~/.config/
-cp -r -u -v bin ~/.config/
+git clone https://gitlab.com/mushrafi88/dotfiles.git ~/.config
+git clone https://gitlab.com/mushrafi88/bin.git ~/.config/bin
+rm -rf ~/config/bin/.git
+cp -r -u -v ~/.config/{.zsh,.zshrc,.Xresources} ~/
 chmod +x ~/.config/bin/*
 chmod +x ~/bspwm/bspwmrc
-touch ~/.config/mpd/{mpd.db,mpd.log,mpd.pid/}
+touch ~/.config/mpd/{mpd.db,mpd.log,mpd.pid}
 ```
 If rofi fonts not working check 
 ```
@@ -216,7 +214,7 @@ sudo cp -r -u -v /home/venerable_white/Pictures/work /usr/share/backgrounds/
 
 ## Lockscreen
 
-# Shell Setup
+# Zsh shell Setup
 ```
 yay -S zsh 
 sudo chsh -s /bin/zsh
