@@ -20,7 +20,7 @@ I have decided to name it **Marble**
 | **Text Editor**          | Neovim                                                                                                    |
 | **File Manager**		   | Ranger, Pcmanfm                                                                                                             |
 | **Sound Mixer**          | Pipewire                                                                                                             |
-| **Brightness Control**   | light                                                          |
+| **Brightness Control**   | Light                                                          |
 | **Network Manager**      | Networkmanager,Networkmanager-dmenu                                                   |
 | **Image Viewer**         | Mirage                                                                 |               |
 | **Screenshot App**       | Flameshot                                                    |
@@ -299,100 +299,133 @@ Flatpak app config location
 ```
 yay -S --needed  mirage mpc ncmpcpp-git mpd mpv-git mugshot stremio-beta scrot cheese feh tumbler flameshot cava spotify-dev firefox-beta-bin qutebrowser-git google-chrome-beta pcmanfm which ncdu perl-rename filezilla ranger zoom telegram-desktop discord atomicparsley ffmpegthumbnailer epub-thumbnailer-git timeshift-bin droidcam obs-studio fbreader pdfjs zathura zathura-ps zathura-pdf-poppler zathura-djvu transmission-gtk-git megasync-bin wget  aria2 freedownloadmanager youtube-dl-git gdown anime-downloader-git autojump ncdu pfetch-git neofetch terminator fd expac gn zsh-syntax-highlighting ueberzug tdrop-git kitty tmux ripgrep mlocate wps-office neovim-git groff pandoc texlive-most android-tools htop powertop nvtop kmon bandwhich ps_mem at cronie evernote-beta-bin tldr upwork ccache sfeed
 ```
+Package list for non-essential applications
+
 
 ## Media
-```
-yay -S --needed mirage mpc ncmpcpp-git mpd mpv-git mugshot stremio-beta scrot cheese feh tumbler flameshot cava spotify-dev
-```
 might need to add this to ~/.xinitrc or ~/.config/bspwm/bspwmrc
-```
 xhost +
-```
+Package list
 
+* mirage
+* mpc
+* ncmpcpp-git
+* mpd
+* mpv-git
+* mugshot
+* stremio-beta
+* scrot
+* cheese
+* feh
+* tumbler
+* flameshot
+* cava
+* spotify-dev
 
 ## Browser
-```
-yay -S --needed firefox-beta-bin qutebrowser-git google-chrome-beta
-```
+* firefox-beta-bin
+* qutebrowser-git
+* google-chrome-beta
 
 ## File manager
-```
-yay -S --needed pcmanfm which ncdu perl-rename filezilla ranger
-```
+Package list
+* pcmanfm
+* which
+* ncdu
+* perl-rename
+* filezilla
+* ranger
 
 ## Social 
-```
-yay -S --needed zoom telegram-desktop discord
-```
 
+* zoom
+* telegram-desktop
+* discord
 
 ## Thmbnail writer
-```
-yay -S --needed atomicparsley ffmpegthumbnailer epub-thumbnailer-git
-```
+* atomicparsley
+* ffmpegthumbnailer
+* epub-thumbnailer-git
 
 ## Backup
-```
-yay -S --needed timeshift-bin
-```
+* timeshift-bin
 
 ## Camera
-```
-yay -S --needed droidcam obs-studio
-```
+Package list
+* droidcam
+* obs-studio
 
 ## Pdf reader
-```
-yay -S --needed fbreader pdfjs zathura zathura-ps zathura-pdf-poppler zathura-djvu
-```
+Package list
+* fbreader
+* pdfjs
+* zathura
+* zathura-djvu
+* zathura-ps
+* zathura-pdf-poppler
 
 ## Downloaders
-```
-yay -S --needed transmission-gtk-git megasync-bin wget  aria2 freedownloadmanager youtube-dl-git gdown anime-downloader-git
-```
+Package list
+* transmission-gtk-git
+* megasync-bin
+* wget 
+* aria2
+* freedownloadmanager
+* youtube-dl-git
+* gdown
+* anime-downloader-git
 
 ## Terminal-utility
-``` 
-yay -S --needed autojump ncdu pfetch-git neofetch terminator fd expac gn zsh-syntax-highlighting ueberzug tdrop-git kitty tmux ripgrep mlocate
-```
+Package list
+* autojump
+* ncdu
+* pfetch-git
+* neofetch
+* terminator
+* fd
+* expac
+* gn
+* zsh-syntax-highlighting
+* ueberzug
+* tdrop-git
+* kitty
+* tmux
+* ripgrep
+* mlocate
 
 ## Editor
-```
-yay -S --needed wps-office neovim-git groff pandoc texlive-most
-```
+Package list 
+* wps-office
+* neovim-git
+* groff
+* pandoc
+* texlive-most
 
 ## Android
-```
-yay -S --needed android-tools
-```
+* android-tools
 
 ## Showinfo
-```
-yay -S --needed htop powertop nvtop kmon bandwhich ps_mem
-```
+Package list
+* htop
+* powertop
+* nvtop
+* kmon
+* bandwhich
+* ps_mem
 
 ## Periodic task manager
-```
-yay -S --needed at cronie evernote-beta-bin
-```
+* at
+* cronie
+* evernote-beta-bin
 
 ## Cheat sheet
-```
-yay -S --needed tldr
-```
+* tldr
 
 ## Work
-``` 
-yay -S --needed upwork
-```
+* upwork
 
 ## System cleaner
-```
-yay -S --needed ccache
-```
+* ccache
 
 ## RSS-feed
-```
-yay -S --needed sfeed
-```
-
+* sfeed
