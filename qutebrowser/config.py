@@ -76,6 +76,9 @@ c.content.geolocation = False
 c.content.notifications.enabled = False
 #c.content.pdfjs = True
 c.content.webgl = True
+
+c.zoom.default = '125%'
+
 c.completion.height = '30%'
 c.completion.web_history.exclude = []
 c.completion.web_history.max_items = 1000
@@ -121,6 +124,7 @@ c.fileselect.handler = 'external'
 c.fileselect.folder.command= ["kitty","-e","ranger","--choosedir={}"]
 c.fileselect.single_file.command= ["kitty","-e","ranger","--choosefile={}"]
 c.fileselect.multiple_files.command= ["kitty","-e","ranger","--choosefiles={}"]
+
 #darkmode
 c.colors.webpage.bg = "#282a36"
 c.colors.webpage.preferred_color_scheme = 'dark'

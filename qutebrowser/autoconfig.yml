@@ -8,5 +8,9 @@ config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
     global: false
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true
   content.user_stylesheets:
     global: nord.css
+  zoom.default:
+    global: 100%
