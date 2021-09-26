@@ -11,6 +11,8 @@
 #   qute://help/settings.html
 
 # Change the argument to True to still load settings configured via autoconfig.yml
+
+
 config.load_autoconfig(True)
 
 config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
@@ -55,6 +57,10 @@ c.content.blocking.method = 'both'
 c.content.blocking.adblock.lists = [
         "https://easylist.to/easylist/easylist.txt",
         "https://easylist.to/easylist/easyprivacy.txt",
+        "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+        "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt",
+        "https://www.i-dont-care-about-cookies.eu/abp/",
+        "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
         "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
         "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt",
         "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/legacy.txt",
@@ -68,7 +74,7 @@ c.content.blocking.adblock.lists = [
         "/home/venerable_white/.config/qutebrowser/blocked-hosts"]
 c.content.geolocation = False
 c.content.notifications.enabled = False
-c.content.pdfjs = True
+#c.content.pdfjs = True
 c.content.webgl = True
 c.completion.height = '30%'
 c.completion.web_history.exclude = []
@@ -110,26 +116,32 @@ c.fonts.tabs.selected = '7pt Noto Sans Mono'
 c.fonts.tabs.unselected = '7pt Noto Sans Mono'
 
 
-
-
+#file handler
+c.fileselect.handler = 'external'
+c.fileselect.folder.command= ["kitty","-e","ranger","--choosedir={}"]
+c.fileselect.single_file.command= ["kitty","-e","ranger","--choosefile={}"]
+c.fileselect.multiple_files.command= ["kitty","-e","ranger","--choosefiles={}"]
 #darkmode
-c.colors.webpage.bg = "black"
-c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
-c.colors.webpage.darkmode.contrast = 0.75
+c.colors.webpage.bg = "#282a36"
+c.colors.webpage.preferred_color_scheme = 'dark'
+#c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
+#c.colors.webpage.darkmode.contrast = 0.65
 c.colors.webpage.darkmode.enabled = True
 c.colors.webpage.darkmode.grayscale.all = True
 c.colors.webpage.darkmode.grayscale.images = 0.2
 c.colors.webpage.darkmode.policy.images = 'smart'
 c.colors.webpage.darkmode.policy.page = 'smart'
 #c.colors.webpage.darkmode.threshold.background = 0
-c.colors.webpage.darkmode.threshold.text = 120
+#c.colors.webpage.darkmode.threshold.text = 120
 
-config.source('themes/onedark.py')
+config.source('onedark/onedark.py')
 
-
+c.content.user_stylesheets='nord.css'
 
 
 # Bindings for normal mode
+config.bind('<Ctrl-d>', 'config-cycle colors.webpage.darkmode.enabled true false ;;restart')
+config.bind('<Ctrl-i>', 'config-cycle content.user_stylesheets empty.css nord.css')
 config.bind('<Ctrl-Shift-a>','hint --rapid links spawn --userscript umpv {hint-url}')
 config.bind(';vc', 'spawn youtube-dl -ci -f bestvideo[ext=mp4][height<1200]+bestaudio[ext=m4a]/best -o /mnt/downloads/youtube-dl/%(title)s.%(ext)s {url}')
 config.bind(';vh', 'hint links spawn youtube-dl -ci -f bestvideo[ext=mp4][height<1200]+bestaudio[ext=m4a]/best -o /mnt/downloads/youtube-dl/%(title)s.%(ext)s {hint-url}')
@@ -164,7 +176,7 @@ config.bind('<Alt-m>', 'tab-mute')
 config.bind('<Ctrl-A>', 'navigate increment')
 config.bind('<Ctrl-Alt-p>', 'print')
 config.bind('<Ctrl-B>', 'scroll-page 0 -1')
-config.bind('<Ctrl-D>', 'scroll-page 0 0.5')
+#config.bind('<Ctrl-D>', 'scroll-page 0 0.5')
 config.bind('<Ctrl-F5>', 'reload -f')
 config.bind('<Ctrl-F>', 'scroll-page 0 1')
 config.bind('<Ctrl-N>', 'open -w')

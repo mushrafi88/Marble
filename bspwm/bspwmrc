@@ -57,7 +57,7 @@ bspc rule -a okular split_ratio=.25 desktop='^4' follow=on focus=on
 bspc rule -a zoom desktop='^2' follow=on
 bspc rule -a 'Free Download Manager' desktop='^9' follow=off focus=off
 bspc rule -a mpv state=floating 
-bspc rule -a qutebrowser desktop='^3' follow=on focus=on
+bspc rule -a qutebrowser desktop='^3' follow=on 
 bspc rule -a Pavucontrol state=floating 
 bspc rule -a Kite desktop='^2' split_ratio=0.80
 bspc rule -a TelegramDesktop desktop='^8' follow=off focus=off
