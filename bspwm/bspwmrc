@@ -123,19 +123,20 @@ dunst &
 transmission-gtk &
 optimus-manager-qt &
 megasync &
-killswitch rss-regular-notification &
-killswitch anime-downloader-daily &
-killswitch dl-music-from-youtube-weekly &
-killswitch anime-notification-browser &
-#killswitch medicine &
+telegram-desktop &
+#discord &
+
+for processes in rss-regular-notification anime-downloader-daily dl-music-from-youtube-weekly anime-notification-browser wallpaper-change-auto dl-folder-organizer battery-warning volume-high-warning
+do
+    kill `ps aux | grep -F $processes | grep -v -F 'grep' | awk '{ print $2 }'`
+done
+
+
 #rss-regular-notification &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
 anime-notification-browser &
-#xfce4-power-manager &
-telegram-desktop &
 wallpaper-change-auto &
-#discord &
 dl-folder-organizer &
 battery-warning &
 volume-high-warning &
