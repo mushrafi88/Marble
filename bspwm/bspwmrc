@@ -92,13 +92,13 @@ feh --no-bg --bg-scale $HOME/Pictures/wallpapers/arch/arch_01.png
 # Start bspwm scripts
 #bspcolors
 
-sed -i '19 s/^/;/' .config/polybar/material/include-modules.ini &
+sed -i '19 s/^/;/' .config/polybar/include-modules.ini &
 
 
-isInFile=$(cat ~/.config/polybar/material/config.ini | grep -c ";tray")
+isInFile=$(cat ~/.config/polybar/config.ini | grep -c ";tray")
 
 if [ $isInFile -eq 0 ]; then
-    sed -i 's/tray/;tray/g' .config/polybar/material/config.ini && 
+    sed -i 's/tray/;tray/g' .config/polybar/config.ini && 
     bspbar &  
 else
    bspbar &
@@ -119,7 +119,7 @@ mpd &
 numlockx &
 fdm &
 dunst &
-kdeconnect-indicator &
+#kdeconnect-indicator &
 transmission-gtk &
 optimus-manager-qt &
 megasync &
@@ -127,7 +127,7 @@ killswitch rss-regular-notification &
 killswitch anime-downloader-daily &
 killswitch dl-music-from-youtube-weekly &
 killswitch anime-notification-browser &
-killswitch medicine &
+#killswitch medicine &
 #rss-regular-notification &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
@@ -137,3 +137,4 @@ telegram-desktop &
 wallpaper-change-auto &
 #discord &
 dl-folder-organizer &
+batter-warning &
