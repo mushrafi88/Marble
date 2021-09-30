@@ -302,7 +302,7 @@
     foreground = "#f0f5cd"
     timeout = 5
     #for notifications with low urgency, uncomment to enable
-    icon = /home/venerable_white/.config/dunst/icon/love.png
+    icon = /home/venerable_white/.config/dunst/icon/confused.jpg
 
 [urgency_normal]
     background = "#2e3440"

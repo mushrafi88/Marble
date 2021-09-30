@@ -144,3 +144,8 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
  export VISUAL='nvim'
  export EDITOR='nvim'
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+
+
+n() {
+ $EDITOR ~/Notes/todo.txt
+}

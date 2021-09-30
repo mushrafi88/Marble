@@ -49,7 +49,9 @@ ctrl + alt + k
 ctrl + alt + e
     bash ~/.config/bin/rofi-shell-command
 
-
+## dunst applications
+ctrl + alt + n 
+    bash ~/.config/bin/dunst-todo
 ##---------- Applications ----------##
 
 # Launch Apps
