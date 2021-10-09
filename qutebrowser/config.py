@@ -74,7 +74,7 @@ c.content.blocking.adblock.lists = [
         "/home/venerable_white/.config/qutebrowser/blocked-hosts"]
 c.content.geolocation = False
 c.content.notifications.enabled = False
-#c.content.pdfjs = True
+c.content.pdfjs = True
 c.content.webgl = True
 
 c.zoom.default = '125%'

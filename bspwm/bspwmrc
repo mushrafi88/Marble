@@ -140,6 +140,6 @@ wallpaper-change-auto &
 dl-folder-organizer &
 battery-warning &
 volume-high-warning &
-sleep 2m 
-dunst-todo &
-dunst-todo-reminder $
+sleep 1m &&
+dunst-todo &&
+dunst-todo-reminder &
