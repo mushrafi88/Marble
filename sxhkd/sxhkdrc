@@ -13,8 +13,8 @@ ctrl + alt + w
 
 
 #TO SOCIAL
-super + 9    
-    bspc desktop -f '^9'
+#super + 9    
+#    bspc desktop -f '^9'
 
 # Floating terminal
 super + shift + Return

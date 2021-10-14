@@ -282,6 +282,7 @@ yay -S flatpak
 ```
 flatpak install okular
 flatpak install kdenlive
+flatpak install kdeconnect
 ```
 add this to .zshrc
 ```
@@ -292,6 +293,24 @@ Flatpak app config location
 ```
 ~/.var/app/APP/config
 ```
+dark mode
+```
+flatpak install flathub org.kde.KStyle.Adwaita
+```
+add this line below to allow qt applications to run a specific theme 
+```
+echo QT_STYLE_OVERRIDE=Adwaita-dark >> /etc/environment
+```
+for gtk use this
+```
+flatpak run --env=GTK_THEME=arc-Dark APP
+```
+to run the flatpak package with darkmode only in qt
+```
+flatpak override --user --env=QT_STYLE_OVERRIDE=Adwaita-Dark
+```
+Overrides are stored in ~/.local/share/flatpak/overrides 
+
 
 # Non-Essential Applications to make life better
 ```
