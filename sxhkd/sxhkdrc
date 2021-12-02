@@ -52,6 +52,10 @@ ctrl + alt + e
 ## dunst applications
 ctrl + alt + n 
     bash ~/.config/bin/dunst-todo
+ctrl + shift + space
+    dunstctl close-all
+ctrl + space
+    dunstctl close
 ##---------- Applications ----------##
 
 # Launch Apps

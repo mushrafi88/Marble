@@ -121,12 +121,14 @@ mpd &
 numlockx &
 fdm &
 dunst &
-#kdeconnect-indicator &
+org.kde.kdeconnect &
 transmission-gtk &
 optimus-manager-qt &
 megasync &
 telegram-desktop &
 #discord &
+com.github.bajoja.indicator-kdeconnect &
+
 
 for processes in dunst-todo dunst-todo-reminder rss-regular-notification anime-downloader-daily dl-music-from-youtube-weekly anime-notification-browser wallpaper-change-auto dl-folder-organizer battery-warning volume-high-warning
 do

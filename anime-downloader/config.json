@@ -83,6 +83,10 @@
             "version": "subbed"
         },
         "animefrenzy": {
+            "servers": [
+                "trollvideo",
+                "mp4upload"
+            ],
             "version": "subbed"
         },
         "animekisa": {
@@ -296,11 +300,13 @@
     },
     "watch": {
         "autoplay_next": true,
+        "default_player": "mpv",
         "fallback_qualities": [
             "720p",
             "480p",
             "360p"
         ],
+        "iina_arguments": "",
         "log_level": "INFO",
         "mpv_arguments": "",
         "provider": "twist.moe",

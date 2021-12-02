@@ -185,7 +185,10 @@ If rofi fonts not working check
 https://github.com/adi1090x/rofi.git
 ```
 If polybar fonts not working install all the fonts given below
-
+if mpd ncmpcpp causes trouble because of icu
+```
+yay -S raptor harfbuzz-icu mpd-git mpc ncmpcpp-git
+```
 
 ## Menu
 ```
@@ -282,7 +285,7 @@ yay -S flatpak
 ```
 flatpak install okular
 flatpak install kdenlive
-flatpak install kdeconnect
+flatpak install kdeapps kdeconnect
 ```
 add this to .zshrc
 ```
@@ -303,11 +306,12 @@ echo QT_STYLE_OVERRIDE=Adwaita-dark >> /etc/environment
 ```
 for gtk use this
 ```
-flatpak run --env=GTK_THEME=arc-Dark APP
+flatpak run --env=GTK_THEME=Arc-Dark APP
 ```
 to run the flatpak package with darkmode only in qt
 ```
-flatpak override --user --env=QT_STYLE_OVERRIDE=Adwaita-Dark
+flatpak override --user --env=QT_STYLE_OVERRIDE=Adwaita-Dark org.kde.okular
+flatpak override --user --env=QT_STYLE_OVERRIDE=Adwaita-Dark org.kde.kdeconnect
 ```
 Overrides are stored in ~/.local/share/flatpak/overrides 
 
