@@ -267,7 +267,12 @@ Install list
 ```
 yay -S --needed miniconda3 gcc-fortran cuda cudnn julia gnuplot
 ```
-
+secondary option 
+import whole environment in conda
+```
+conda create -n tf2.0_gpu --file conda_env_setup.txt
+```
+for cpu remove tensorflow-gpu with just tensorflow
 # Pip
 ```
 pip install youtube_search manga-py
