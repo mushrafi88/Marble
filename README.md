@@ -18,13 +18,13 @@ I have decided to name it **Marble**
 | **Apps Launcher**        | [Rofi](https://github.com/davatorium/rofi)                                                                             |
 | **Panel**                | Polybar                                                                             |
 | **Text Editor**          | Neovim                                                                                                    |
-| **File Manager**		   | Ranger, Pcmanfm                                                                                                             |
+| **File Manager**		   | lf, Pcmanfm                                                                                                             |
 | **Sound Mixer**          | Pipewire                                                                                                             |
 | **Brightness Control**   | Light                                                          |
 | **Network Manager**      | Networkmanager,Networkmanager-dmenu                                                   |
 | **Image Viewer**         | Mirage                                                                 |               |
 | **Screenshot App**       | Flameshot                                                    |
-| **System Monitor (CLI)** | htop,ps_mem,nvtop,bandwhich                                                                                                                |
+| **System Monitor (CLI)** | htop,ps_mem,nvtop,bandwhich,btop                                                                                                                |
 | **Notification-daemon**  | [Dunst](https://wiki.archlinux.org/index.php/Dunst)                    										        |
 | **Music Player (CLI)**   | Mpd, Mpc and Ncmpcpp
 | **Lockscreen**           | Betterlockscreen                                                                                                       |
@@ -53,15 +53,13 @@ I have decided to name it **Marble**
 | **Rofi app launcher**       | alt + F1																						|
 | **Rofi network manager**          | super + n                                                            | 
 | **Rofi powermenu**                | super + x	                                                                                                                |
-| **Screenshot**             | ctrl + alt + p                                                              				|
-| **Rofi Bookmark manager**      | ctrl + alt + b																|
-| **Rofi Book manager**     | ctrl + alt + b                                                                                                               |
+| **Screenshot**             | ctrl + alt + p                                                              				|                                                                                                            |
 | **Rofi youtube searcher**            | ctrl + alt + y                                                                                                                  |
 | **Kill an application**           | ctrl + alt + k                                                                                      |
 | **Mpd increase/decrease sound**        | ctrl + alt + i/o                                                                             |
-| **Ranger**                | ctrl + alt + h                                                                             |
+| **LF**                | ctrl + alt + h                                                                             |
 | **System monitor**          | ctrl + alt + c                                                                                                      |
-| **Qutebrowser**		   | ctrl + alt + f                                                                                                             |
+| **LibreWolf**		   | ctrl + alt + f                                                                                                             |
 | **Ncmpcpp**          | ctrl + alt + m                                                                                                             |
 | **Lockscreen**   | ctrl + alt + l                                                          |
 | **Reload Keybindings**      | super + escape                                                   |
@@ -323,7 +321,7 @@ Overrides are stored in ~/.local/share/flatpak/overrides
 
 # Non-Essential Applications to make life better
 ```
-yay -S --needed  mirage mpc ncmpcpp-git mpd mpv-git mugshot stremio-beta scrot cheese feh tumbler flameshot cava spotify-dev firefox-beta-bin qutebrowser-git google-chrome-beta pcmanfm which ncdu perl-rename filezilla ranger zoom telegram-desktop discord atomicparsley ffmpegthumbnailer epub-thumbnailer-git timeshift-bin droidcam obs-studio fbreader pdfjs zathura zathura-ps zathura-pdf-poppler zathura-djvu transmission-gtk-git megasync-bin wget  aria2 freedownloadmanager youtube-dl-git gdown anime-downloader-git autojump ncdu pfetch-git neofetch terminator fd expac gn zsh-syntax-highlighting ueberzug tdrop-git kitty tmux ripgrep mlocate wps-office neovim-git groff pandoc texlive-most android-tools htop powertop nvtop kmon bandwhich ps_mem at cronie evernote-beta-bin tldr upwork ccache sfeed
+yay -S --needed  mirage mpc ncmpcpp-git mpd mpv-git mugshot stremio-beta scrot cheese feh tumbler flameshot cava spotify-dev firefox-beta-bin qutebrowser-git google-chrome-beta pcmanfm which ncdu perl-rename filezilla ranger zoom telegram-desktop discord atomicparsley ffmpegthumbnailer epub-thumbnailer-git timeshift-bin droidcam obs-studio fbreader pdfjs zathura zathura-ps zathura-pdf-poppler zathura-djvu transmission-gtk-git megasync-bin wget  aria2 freedownloadmanager youtube-dl-git gdown anime-downloader-git autojump ncdu pfetch-git neofetch fd expac gn zsh-syntax-highlighting ueberzug tdrop-git kitty tmux ripgrep mlocate wps-office neovim-git groff pandoc texlive-most android-tools htop powertop nvtop kmon bandwhich ps_mem at cronie evernote-beta-bin tldr upwork ccache sfeed
 ```
 Package list for non-essential applications
 
@@ -407,7 +405,6 @@ Package list
 * ncdu
 * pfetch-git
 * neofetch
-* terminator
 * fd
 * expac
 * gn
