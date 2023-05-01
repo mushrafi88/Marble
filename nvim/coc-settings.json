@@ -1,0 +1,3 @@
+{
+"coc.source.vimtex.filetypes": ["tex","plaintex","latex"]
+}

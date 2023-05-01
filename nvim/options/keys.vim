@@ -28,3 +28,18 @@ map <leader>r :Ranger<CR>
 
 " nerdtree
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+" luasnip
+
+" press <Tab> to expand or jump in a snippet. These can also be mapped separately
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+snoremap <silent> <Tab> <cmd>lua require('luasnip').jump(1)<Cr>
+snoremap <silent> <S-Tab> <cmd>lua require('luasnip').jump(-1)<Cr>
+
+" for markdown preview 
+nmap <M-m> <Plug>MarkdownPreviewStop 
+
+" For changing choices in choiceNodes (not strictly necessary for a basic setup).
+imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'

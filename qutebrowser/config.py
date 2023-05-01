@@ -42,10 +42,13 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
                        'aw': 'https://wiki.archlinux.org/?search={}',
                        'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
                        'go': 'http://www.google.com/search?hl=en&source=hp&ie=ISO-8859-l&q={}',
+                       'yw' : 'https://yewtu.be/search?q={}',
                        'yt': 'https://www.youtube.com/results?search_query={}',
                        'gh': 'https://github.com/search?q={}&type=Code',
                        'ap': 'https://www.archlinux.org/packages/?sort=&q={}',
                        'ny': 'https://nyaa.si/?f=0&c=0_0&q={}&s=seeders&o=desc'}
+
+c.url.searchengines['#sci'] = "https://sci-hub.se/{}"
 c.url.start_pages = ['file:///home/venerable_white/.config/startpage-browser/index.html']
 c.new_instance_open_target = 'tab-bg'
 c.session.lazy_restore = False
@@ -144,6 +147,8 @@ c.content.user_stylesheets='nord.css'
 
 
 # Bindings for normal mode
+config.bind('cs', 'hint links spawn --userscript doi {hint-url}' )
+config.bind('gc', 'spawn -u -- gitclone')
 config.bind('<Ctrl-d>', 'config-cycle colors.webpage.darkmode.enabled true false ;;restart')
 config.bind('<Ctrl-i>', 'config-cycle content.user_stylesheets empty.css nord.css')
 config.bind('<Ctrl-Shift-a>','hint --rapid links spawn --userscript umpv {hint-url}')

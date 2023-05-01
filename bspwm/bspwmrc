@@ -10,21 +10,34 @@ normal=$(xrdb ~/.Xresources -query all | grep background | cut -f2 | head -n 1)
 ## Configurations -------------------------------#
 
 lc=$(xrandr | grep " connected" | wc -l)
+m_name=$(bspc query -M --names)
+
 echo $lc
 if [ $lc = "1" ]
 then
-    xrandr --output eDP-1 --mode 1920x1080 --output DP1 --off
-    bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8
+    xrandr --output "$m_name" --mode 1920x1080 --output DP1 --off
+    bspc monitor "$m_name" -d 1 2 3 4 5 6 7 8 9
 else
-    xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1366x768 --pos 1920x0 --rotate normal
-    bspc monitor eDP-1 -d 1 2 3 4
+    xrandr --output "$m_name" --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1366x768 --pos 1920x0 --rotate normal
+    bspc monitor "$m_name" -d 1 2 3 4
     bspc monitor HDMI-1 -d 5 6 7 8
 fi
 
-xhost +
+pol_name=$(grep "monitor" .config/polybar/config.ini | head -n 1 | awk '{print $NF}')
 
-bspc config border_width 1
-bspc config window_gap 12
+if [ "$pol_name" = "eDP-1" ]
+then
+    sed -i "s/eDP-1/$m_name/g" .config/polybar/config.ini
+elif [ "$pol_name" = "eDP-1-1" ]
+then
+    sed -i "s/eDP-1-1/$m_name/g" .config/polybar/config.ini
+fi 
+xhost +
+ibus-daemon -drxR
+
+
+bspc config border_width 1 
+bspc config window_gap 0
 bspc config split_ratio 0.50
 
 bspc config focused_border_color "$focused" 
@@ -56,8 +69,9 @@ bspc rule -a Stremio split_ratio=0.35 desktop='^6' follow=on
 bspc rule -a okular split_ratio=.25 desktop='^4' follow=on focus=on
 bspc rule -a zoom desktop='^1' follow=on
 bspc rule -a 'Free Download Manager' desktop='^8' follow=off focus=off
-bspc rule -a mpv state=floating 
-bspc rule -a qutebrowser desktop='^3' follow=on 
+bspc rule -a mpv state=floating
+bspc rule -a LibreWolf desktop='^3' follow=on
+bspc rule -a qutebrowser desktop='^2' follow=on 
 bspc rule -a Pavucontrol state=floating 
 bspc rule -a Kite desktop='^2' split_ratio=0.80
 bspc rule -a TelegramDesktop desktop='^7' follow=off focus=off
@@ -110,6 +124,8 @@ fi
 
 
 #bspbar &
+## Launch Polybar
+#bash ~/.config/polybar/launch.sh --forest
 bspcomp &
 
 udiskie -At &
@@ -119,31 +135,41 @@ mpd &
 
 #Autostart
 numlockx &
-fdm &
+#fdm &
 dunst &
-org.kde.kdeconnect &
+#org.kde.kdeconnect &
 transmission-gtk &
 optimus-manager-qt &
-megasync &
 telegram-desktop &
 #discord &
-com.github.bajoja.indicator-kdeconnect &
+#com.github.bajoja.indicator-kdeconnect &
 
 
-for processes in dunst-todo dunst-todo-reminder rss-regular-notification anime-downloader-daily dl-music-from-youtube-weekly anime-notification-browser wallpaper-change-auto dl-folder-organizer battery-warning volume-high-warning
+for processes in dunst-todo dunst-todo-reminder rss-regular-notification anime-downloader-daily dl-music-from-youtube-weekly anime-notification-browser wallpaper_set dl-folder-organizer battery-warning volume-high-warning
 do
     kill `ps aux | grep -F $processes | grep -v -F 'grep' | awk '{ print $2 }'`
 done
+rm -f /tmp/wallpaper_set.lock  
 
+#! /bin/bash
+
+CURRENT_LAYOUT=$(setxkbmap -query|awk -F : 'NR==3{print $2}'|sed 's/ //g')
+
+if [ "$CURRENT_LAYOUT" = "bd" ]; then
+    setxkbmap "us"
+fi
 
 #rss-regular-notification &
 anime-downloader-daily &
 dl-music-from-youtube-weekly &
-anime-notification-browser &
-wallpaper-change-auto &
+anime-downloader-folder-watcher &
+wallpaper_set &
 dl-folder-organizer &
 battery-warning &
 volume-high-warning &
 sleep 1m &&
 dunst-todo &&
 dunst-todo-reminder &
+syncthing_app  &
+
+

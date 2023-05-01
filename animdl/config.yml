@@ -1,0 +1,13 @@
+quality_string: best[subtitle]/best 
+
+default_player: mpv 
+fzf:
+    executable: fzf
+    opts: []
+    state: true 
+
+players:
+    mpv:
+        executable: mpv
+        opts: []
+default_provider: allanime

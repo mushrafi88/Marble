@@ -13,8 +13,8 @@ ctrl + alt + w
 
 
 #TO SOCIAL
-#super + 9    
-#    bspc desktop -f '^9'
+super + 9    
+    bspc desktop -f '^9'
 
 # Floating terminal
 super + shift + Return
@@ -35,12 +35,14 @@ super + r
 	sh ~/.config/bin/rofi-asroot
 super + x
     sh ~/.config/bin/rofi-powermenu
+XF86PowerOff 
+    sh ~/.config/bin/rofi-powermenu
 ctrl + alt + p
 	flameshot gui
 ctrl + alt + j
 	/bin/kitty --name=book_finder --start-as=normal --detach -e fuzzy_book
 ctrl + alt + b
-	sh ~/.config/bin/rofi-bookmark-manager	
+	sh ~/.config/bin/bluetooth_headphone	
 ctrl + alt + y
     bash ~/.config/bin/rofi_youtube_menu
 ctrl + alt + k
@@ -89,9 +91,11 @@ ctrl + alt + o
     mpc volume -5    
 ##--------- Thunar shortcuts -------#
 ctrl + alt + h
-    kitty -e ranger
+    kitty -e lfub 
 ctrl + alt + a
-    kitty -e ranger /home/venerable_white/Videos
+    kitty -e lfub /home/venerable_white/Videos/Anime/Airing 
+ctrl + alt + s 
+    kitty -e lfub /mnt/study/fourth_year 
 ctrl + alt + t
     tdrop -am -w 1905 -h 500 -y 35 -x 10 kitty 
 
@@ -100,12 +104,12 @@ ctrl + alt + t
 
 
 
-ctrl + alt + c
-    sh ~/.config/bin/cpu-usage-info
+#alt + space
+#    sh ~/.config/bin/toggle_keymap
 ctrl + alt + f
-    qutebrowser
+    librewolf
 ctrl + alt + g
-    firefox-beta 
+    qutebrowser
 ctrl + alt + m
     sh ~/.config/bin/music   
 ##---------- Bspwm ----------##
@@ -184,7 +188,9 @@ alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 #change wallpaper
 alt + c
-    sh ~/.config/bin/wallpaper-changer $(cat /home/venerable_white/Pictures/wallpapers/wallpaper-folder-name.txt)
+    sh ~/.config/bin/wallpaper_next 
+alt + v 
+    sh ~/.config/bin/wallpaper_prev 
 
 
 #play video in mpv
@@ -192,3 +198,6 @@ ctrl + y + u
     sh ~/.config/bin/play-video-on-any-browser-in-mpv
 
 ##---------- EOF ----------##
+# Display keybind menu
+super + b
+    sxhkhmenu

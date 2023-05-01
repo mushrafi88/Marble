@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name         Youtube to Yewtube
+// @version      0.1
+// @description  none
+// @author       You
+// @include      *youtube.com*
+// @run-at       document-start
+// ==/UserScript==
+
+document.location.href=document.location.href.replace("youtube.com","yewtu.be");

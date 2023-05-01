@@ -2,7 +2,7 @@
 ncmpcpp_directory = ~/.config/ncmpcpp
 lyrics_directory = ~/.config/ncmpcpp/lyrics
 mpd_host = localhost
-mpd_port = 6600
+mpd_port = 6800
 mpd_music_dir = /home/venerable_white/Music
 mpd_crossfade_time = 2
 
@@ -94,5 +94,6 @@ mouse_support = "yes"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
 message_delay_time = "1"
+
 
 

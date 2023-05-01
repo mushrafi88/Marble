@@ -7,12 +7,27 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export PATH="${PATH}:/mnt/media_m/tor-browser_en-US/Browser"
 
+export PATH="${PATH}:/home/venerable_white/.local/share/gem/ruby/3.0.0/bin"
 #export PATH="${PATH}:$HOME/.local/lib/python3.8/site-packages"
 
 export PATH="${PATH}:$HOME/.local/bin"
 export PATH="${PATH}:$HOME/.config/bin"
 
+
 export PATH="${PATH}:/var/lib/flatpak/exports/bin"
+
+export PATH="${PATH}:/usr/bin/nvim"
+export PATH="${PATH}:/opt/cuda/bin"
+#export CUQUANTUM="$HOME/cuquantum/lib/12"
+
+
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -123,10 +138,6 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.zsh/history
 
-alias ls='ls --color=auto'
-
-pfetch
-
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -141,11 +152,13 @@ ZSH_COMMAND_TIME_COLOR="cyan"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
- export VISUAL='nvim'
- export EDITOR='nvim'
+export VISUAL='nvim'
+export EDITOR='nvim'
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
-
 
 n() {
  $EDITOR ~/Notes/todo.txt
 }
+
+source /home/venerable_white/.config/broot/launcher/bash/br
+nitch 
