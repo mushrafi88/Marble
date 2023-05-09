@@ -171,4 +171,5 @@ map gs cd /mnt/study/fourth_year
 map gd cd /mnt/downloads 
 map gh cd /home/venerable_white 
 map gc cd ~/.config
-map gv cd ~/Videos 
+map gv cd ~/Videos
+map gw cd ~/My\ machine\ learning\ projects

@@ -170,6 +170,7 @@ volume-high-warning &
 sleep 1m &&
 dunst-todo &&
 dunst-todo-reminder &
+harmonoid_music_playlist &
 syncthing_app  &
 
 
