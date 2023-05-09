@@ -45,6 +45,7 @@ I have decided to name it **Marble**
 
 ![](Screenshots/6.png)
 
+![](Screenshots/7.png) 
 ### Commonly used keybindings :
 
 | Key stroke               | Program                                                                                                       |
